@@ -12,3 +12,246 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/*FACEBOOK*/
+.facebook {
+  background-color: white;
+  border-radius: 3.6rem;
+  cursor: pointer;
+  display: block;
+  margin: 0.5rem;
+  font-size: 2rem;
+  height: 3.6rem;
+  line-height: 3.6rem;
+  margin: 0.5rem;
+  position: relative;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 3.6rem;
+}
+.facebook span {
+  border-radius: 0;
+  display: block;
+  height: 0;
+  left: 50%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 0;
+}
+.facebook:hover span {
+  width: 3.6rem;
+  height: 3.6rem;
+  border-radius: 3.6rem;
+  margin: -1.8rem;
+}
+.facebook span {
+  background-color: #3b5998;
+}
+.facebook i {
+  background: none;
+  color: #3b5998;
+  height: 3.6rem;
+  left: 0;
+  line-height: 3.6rem;
+  position: absolute;
+  top: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 3.6rem;
+  z-index: 10;
+}
+.facebook i:hover {
+  color: #fff;
+}
+
+/*INSTA*/
+.instagram {
+  background-color: white;
+  border-radius: 3.6rem;
+  cursor: pointer;
+  display: block;
+  margin: 0.5rem;
+  font-size: 2rem;
+  height: 3.6rem;
+  line-height: 3.6rem;
+  margin: 0.5rem;
+  position: relative;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 3.6rem;
+}
+.instagram span {
+  border-radius: 0;
+  display: block;
+  height: 0;
+  left: 50%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 0;
+}
+.instagram:hover span {
+  width: 3.6rem;
+  height: 3.6rem;
+  border-radius: 3.6rem;
+  margin: -1.8rem;
+}
+.instagram span {
+  background-color: #e95950;
+}
+.instagram i {
+  background: none;
+  color: #e95950;
+  height: 3.6rem;
+  left: 0;
+  line-height: 3.6rem;
+  position: absolute;
+  top: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 3.6rem;
+  z-index: 10;
+}
+.instagram i:hover {
+  color: #fff;
+}
+
+/*YOUTUBE*/
+.youtube {
+  background-color: white;
+  border-radius: 3.6rem;
+  cursor: pointer;
+  display: block;
+  margin: 0.5rem;
+  font-size: 2rem;
+  height: 3.6rem;
+  line-height: 3.6rem;
+  margin: 0.5rem;
+  position: relative;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 3.6rem;
+}
+.youtube span {
+  border-radius: 0;
+  display: block;
+  height: 0;
+  left: 50%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 0;
+}
+.youtube:hover span {
+  width: 3.6rem;
+  height: 3.6rem;
+  border-radius: 3.6rem;
+  margin: -1.8rem;
+}
+.youtube span {
+  background-color: #ff0000;
+}
+.youtube i {
+  background: none;
+  color: #ff0000;
+  height: 3.6rem;
+  left: 0;
+  line-height: 3.6rem;
+  position: absolute;
+  top: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 3.6rem;
+  z-index: 10;
+}
+.youtube i:hover {
+  color: #fff;
+}
+
+/*SPIELERPLUS*/
+.spielerPlus {
+  background-color: white;
+  border-radius: 3.6rem;
+  cursor: pointer;
+  display: block;
+  margin: 0.5rem;
+  font-size: 2rem;
+  height: 3.6rem;
+  line-height: 3.6rem;
+  position: relative;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 3.6rem;
+}
+.spielerPlus span {
+  border-radius: 0;
+  display: block;
+  height: 0;
+  left: 50%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 0;
+}
+.spielerPlus:hover span {
+  width: 3.6rem;
+  height: 3.6rem;
+  border-radius: 3.6rem;
+  margin: -1.8rem;
+}
+.spielerPlus span {
+  background-color: #308224;
+}
+.spielerPlus i {
+  background: none;
+  color: #308224;
+  height: 3.6rem;
+  left: 0;
+  line-height: 3.6rem;
+  position: absolute;
+  top: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 3.6rem;
+  z-index: 10;
+}
+.spielerPlus i:hover {
+  color: #fff;
+}

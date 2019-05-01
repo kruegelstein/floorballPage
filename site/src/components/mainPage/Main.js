@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 import Hintergrund from "../../assets/Hintergrund2.png";
 import SCSLogo from "../../assets/Logo.png";
+import MapMarker from "../../assets/MapMarker.png";
 
 export const MainComp = styled.div`
   height: 100%;
@@ -24,8 +25,8 @@ export const HeaderContainer = styled.div`
 `;
 
 export const Logo = styled.div`
-  height: 4rem;
-  width: 4rem;
+  height: 6rem;
+  width: 6rem;
   position: absolute;
   margin: .5rem 2rem;
   background: url(${SCSLogo}) no-repeat center;
@@ -48,12 +49,13 @@ export const HeaderTitle = styled.h1`
 `;
 
 export const HeaderTextSection = styled.p`
-  font-size: 24px;
+  font-size: 22px;
   text-align: justify;
 `;
 
 export const SeasonComp = styled.div`
   width: 100%;
+  position: relative;
 `;
 
 export const InlineContainer = styled.div`
@@ -90,7 +92,7 @@ export const TableRow = styled.tr`
 `;
 
 export const Text = styled.span`
-  color: black;
+  color: ${props => props.color ? props.color : 'black'};
   ${props => (props.fontSize ? `font-size: ${props.fontSize}` : "12px")};
   ${props => (props.italic ? `font-style: italic` : "")};
   ${props =>
@@ -101,4 +103,125 @@ export const Text = styled.span`
   &:hover {
     ${props => (props.hoverEffect ? "cursor: pointer" : "")};
   }
+`;
+
+export const TrainingComp = styled.div`
+  background-color: #3d4d64;
+  height: 34rem;
+  width: 100%;
+  display: inline-flex;
+`;
+
+export const Marker = styled.div`
+  width: 2rem;
+  height: 3rem;
+  background-image: url(${MapMarker});
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+`;
+
+export const MapContainer = styled.div`
+  height: 30rem;
+  width: 50%;
+  margin: auto 1rem;
+  display: inline-block;
+`;
+
+export const TrainingTextContainer = styled.div`
+  width: 30rem;
+  textAlign: center;
+  margin: 5rem auto 0;
+`;
+
+export const TrainingTitle = styled.h2`
+  color: white
+`;
+
+export const TrainingText = styled.p`
+  color: white;
+  margin: 1rem 0;
+  font-size: 20px;
+  text-align: justify;
+`;
+
+export const IconContainer = styled.div`
+`;
+
+export const SocialMediaComp = styled.div`
+  display: inline-flex;
+`;
+
+export const PartnerComp = SeasonComp.extend`
+  display: inline-flex;
+  height: 30rem;
+`;
+
+export const FooterComp = TrainingComp.extend`
+  height: 10rem;
+`;
+
+export const Partner = styled.div`
+  height: 10rem;
+  width: ${props => props.wide ? '20rem' : '8rem'};
+`;
+
+export const PartnerIcon = styled.img`
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+`;
+
+export const PartnerName = styled.a`
+  display: block;
+`;
+
+export const PartnerTitle = styled.h2`
+`;
+
+export const NextGameComp = styled.div`
+  height: 20rem;
+  display: inline-flex;
+  margin: 2rem auto;
+`;
+
+export const Team = styled.div`
+  width: 11rem;
+  height: 11rem;
+  margin: 0 2rem;
+`;
+
+export const TeamLogo = styled.img`
+  height: 100%;
+  width: 100%;
+  border: 2px solid #3d4d64;
+  border-radius: 50%;
+`;
+
+export const TeamName = styled.h3`
+  color: #8C96A0;
+`;
+
+export const Matchup = styled.div`
+
+`;
+
+export const MatchupText = styled.p`
+  color: #8C96A0;
+  font-size: 20px;
+`;
+
+export const Placeholder = styled.p`
+  font-size: 35px;
+  font-weight: bold;
+`;
+
+export const LeagueLogo = styled.img`
+  width: 8rem;
+  height: 5rem;
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
 `;
