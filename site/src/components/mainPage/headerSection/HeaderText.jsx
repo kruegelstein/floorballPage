@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 // Styled-components
-import {HeaderTextComp, HeaderTitle, HeaderTextSection} from "./Main.js";
+import {HeaderTextComp, HeaderTitle, HeaderTextSection} from "../Main.js";
 
 
 class HeaderText extends Component {

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 // Styled-components
-import {HeaderContainer, Logo} from "./Main.js";
+import {HeaderContainer, Logo} from "../Main.js";
 
 class HeaderSection extends Component {
   render() {

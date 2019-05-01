@@ -3,7 +3,8 @@ import React, { Component } from "react";
 // Styled-components
 import {MainComp} from "./Main.js";
 
-import HeaderSection from "./HeaderSection.jsx";
+import HeaderSection from "./headerSection/HeaderSection.jsx";
+import SeasonSection from "./seasonSection/SeasonSection.jsx";
 
 
 class MainPage extends Component {
@@ -11,6 +12,7 @@ class MainPage extends Component {
     return (
       <MainComp>
         <HeaderSection />
+        <SeasonSection />
       </MainComp>
     );
   }
