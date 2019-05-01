@@ -5,13 +5,18 @@ import {SeasonComp, InlineContainer} from "../Main.js";
 
 // Components
 import Table from './Table.jsx'
+import NextGame from './NextGame.jsx'
+import UpcommingEvents from './UpcommingEvents.jsx'
 
 
 class SeasonSection extends Component {
   render() {
     return (
       <SeasonComp>
-        <InlineContainer />
+        <NextGame />
+        <InlineContainer>
+          <UpcommingEvents />
+        </InlineContainer>
         <InlineContainer>
           <Table />
         </InlineContainer>
