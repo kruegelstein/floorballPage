@@ -163,8 +163,8 @@ export const FooterComp = TrainingComp.extend`
 `;
 
 export const Partner = styled.div`
-  height: 10rem;
-  width: ${props => props.wide ? '20rem' : '8rem'};
+  height: 20rem;
+  width: 20rem;
 `;
 
 export const PartnerIcon = styled.img`
@@ -185,6 +185,7 @@ export const NextGameComp = styled.div`
   height: 20rem;
   display: inline-flex;
   margin: 2rem auto;
+  border-bottom: 1px solid grey;
 `;
 
 export const Team = styled.div`
