@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 // Styled-components
-import {HeaderTextComp, HeaderTitle, HeaderTextSection} from "../Main.js";
+import {HeaderTextComp, HeaderTitle, HeaderTextSection, Divider} from "../Main.js";
 
 
 class HeaderText extends Component {
@@ -9,6 +9,7 @@ class HeaderText extends Component {
     return (
       <HeaderTextComp>
         <HeaderTitle>SCS Floorball Family - Willkommen im Hauptquartier</HeaderTitle>
+        <Divider />
         <HeaderTextSection>
         Der SCS Berlin ist ein Floorball - Team im Berliner Verein SC Siemensstadt.
         Unsere Heimspiele tragen wir im Sport Centrum Siemensstadt aus. In der Saison 2017/2018 gelang unserer ersten

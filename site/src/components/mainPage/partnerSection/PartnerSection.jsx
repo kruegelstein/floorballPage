@@ -13,15 +13,15 @@ class PartnerSection extends Component {
       </PartnerTitle>
       <PartnerComp>
         {Partners.map(partner =>
-          <Partner wide={partner.wide}>
-          <PartnerIcon  src={partner.src} alt={partner.alt}/>
-          <PartnerName
-          href={partner.href}
-          target="_blank"
-          rel="noopener noreferrer"
-          >
-          {partner.name}
-          </PartnerName>
+          <Partner>
+            <PartnerIcon  src={partner.src} alt={partner.alt} height='8rem' width='8rem'/>
+            <PartnerName
+              href={partner.href}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+            {partner.name}
+            </PartnerName>
           </Partner>
         )}
       </PartnerComp>

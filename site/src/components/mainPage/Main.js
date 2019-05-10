@@ -10,7 +10,7 @@ export const MainComp = styled.div`
 `;
 
 export const HeaderComp = styled.div`
-  height: 35rem;
+  height: 40rem;
   width: 100%;
   background: url(${Hintergrund}) no-repeat center;
   -webkit-background-size: cover;
@@ -107,7 +107,7 @@ export const Text = styled.span`
 
 export const TrainingComp = styled.div`
   background-color: #3d4d64;
-  height: 34rem;
+  height: 40rem;
   width: 100%;
   display: inline-flex;
 `;
@@ -123,7 +123,7 @@ export const Marker = styled.div`
 `;
 
 export const MapContainer = styled.div`
-  height: 30rem;
+  height: 35rem;
   width: 50%;
   margin: auto 1rem;
   display: inline-block;
@@ -136,7 +136,10 @@ export const TrainingTextContainer = styled.div`
 `;
 
 export const TrainingTitle = styled.h2`
-  color: white
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 3rem;
 `;
 
 export const TrainingText = styled.p`
@@ -144,6 +147,7 @@ export const TrainingText = styled.p`
   margin: 1rem 0;
   font-size: 20px;
   text-align: justify;
+  ${props => props.bold ? 'font-weight: bold' : ''}
 `;
 
 export const IconContainer = styled.div`
@@ -155,7 +159,7 @@ export const SocialMediaComp = styled.div`
 
 export const PartnerComp = SeasonComp.extend`
   display: inline-flex;
-  height: 30rem;
+  height: 20rem;
 `;
 
 export const FooterComp = TrainingComp.extend`
@@ -163,22 +167,34 @@ export const FooterComp = TrainingComp.extend`
 `;
 
 export const Partner = styled.div`
-  height: 20rem;
-  width: 20rem;
+width: 15rem;
+  height: 10rem;
+  margin: 2rem;
+  text-align: center;
 `;
 
 export const PartnerIcon = styled.img`
   display: block;
-  height: 100%;
   width: 100%;
-  object-fit: contain;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
 `;
 
 export const PartnerName = styled.a`
   display: block;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  &: visited {
+    color: black;
+  }
 `;
 
 export const PartnerTitle = styled.h2`
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 3rem;
 `;
 
 export const NextGameComp = styled.div`
@@ -225,4 +241,10 @@ export const LeagueLogo = styled.img`
   position: absolute;
   left: 1rem;
   top: 1rem;
+`;
+
+export const Divider = styled.div`
+  width: 8rem;
+  border: 1.5px solid white;
+  margin: 2rem auto;
 `;

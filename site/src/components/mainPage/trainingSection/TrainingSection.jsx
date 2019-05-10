@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import GoogleMapReact from "google-map-react";
 
 // Styled-Components
-import {TrainingComp, Marker, MapContainer, InlineContainer, TrainingTextContainer, TrainingTitle, TrainingText} from '../Main.js'
+import {TrainingComp, Marker, MapContainer, InlineContainer, TrainingTextContainer, TrainingTitle, TrainingText, Divider} from '../Main.js'
 
 
 const center = {
@@ -38,18 +38,23 @@ class TrainingSection extends Component {
             <TrainingTitle>
               Training 2. Bundesliga - Herren
             </TrainingTitle>
-            <TrainingText>
+            <TrainingText bold>
             Dienstags: 19:00
             </TrainingText>
-            <TrainingText>
+            <TrainingText bold>
             Donnerstags: 19:30
             </TrainingText>
-            <TrainingText>
+            <TrainingText bold>
             Ort: Jungfernheideweg 32-48, 13629 Berlin
             </TrainingText>
+            <Divider />
             <TrainingText>
             Wir freuen uns über jeden, der die Bundesliga Mannschaft verstärken möchte.
             Wenn du Interesse an einem Probetraining hast, melde dich bei uns!
+            </TrainingText>
+            <Divider />
+            <TrainingText>
+            Kontakt: Alexander Jan
             </TrainingText>
             <TrainingText>
             Tel: 0162 4923904
