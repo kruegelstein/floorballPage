@@ -71,7 +71,7 @@ class MediaSection extends React.Component {
         </BlockContainer>
         <Button onClick={this.toggleVideo}>{this.state.isPlaying ? 'Pause' : 'Play'}</Button>
       </BlockContainer>
-      <BlockContainer>
+      <BlockContainer margin={'0 0 2rem 0'}>
         <Video id="video_1"><source  src={Videoplayback} type="video/mp4"/></Video>
         <BlockContainer margin={'0 0 1rem 0'}>
         <Text fontSize={'16px'} fontWeight={'bold'}>Finale: SCS v. Turtles</Text>
