@@ -283,13 +283,15 @@ export const FlexContainer = styled.div`
 `;
 
 export const Videos = styled.div`
-  height: 40rem;
+  height: auto;
   width: 100%;
 `;
 
 export const Video = styled.video`
-  width: 80%;
   height: 20rem;
+  display: block;
+  margin: 2rem auto;
+  border-radius: 2px;
 `;
 
 export const Button = styled.button`
