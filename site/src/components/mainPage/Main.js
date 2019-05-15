@@ -19,6 +19,11 @@ export const HeaderComp = styled.div`
   background-size: cover;
 `;
 
+export const MediaComp = styled.video`
+  height: 40rem;
+  width: 100%;
+`;
+
 export const HeaderContainer = styled.div`
   height: 5rem;
   width: 100%;
@@ -275,4 +280,44 @@ export const FlexContainer = styled.div`
   width: 100%;
   height: 24rem;
   margin: 2rem 0;
+`;
+
+export const Videos = styled.div`
+  height: 40rem;
+  width: 100%;
+`;
+
+export const Video = styled.video`
+  width: 80%;
+  height: 20rem;
+`;
+
+export const Button = styled.button`
+  user-select: none;
+  cursor: pointer;
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color: transparent;
+  color: rgb(53, 53, 53);
+  border-radius: 20px;
+  padding: 10px 24px;
+  margin: 0px;
+  transition: all 300ms ease 0s;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(53, 53, 53);
+  border-image: initial;
+  &:active {
+    background-color: #3d4d64;
+    border-color: rgb(53, 53, 53);
+  }
+  &:hover {
+    background-color: #3d4d64;
+    color: #fff;
+    box-shadow: none;
+    border-color: rgb(53, 53, 53);
+  }
+  &:focus {
+    outline: none;
+  }
 `;
