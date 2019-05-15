@@ -39,7 +39,8 @@ export const Teams = [
     name: 'SCS Berlin',
     spiele: 16,
     diff: '82:104',
-    punkte: 17
+    punkte: 17,
+    own: true
   },
   {
     name: 'FC Stern München',

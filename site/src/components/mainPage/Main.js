@@ -55,20 +55,27 @@ export const HeaderTextSection = styled.p`
 
 export const SeasonComp = styled.div`
   width: 100%;
+  height: auto;
   position: relative;
+  margin-bottom: 2rem;
 `;
 
 export const InlineContainer = styled.div`
   width: 50%;
   display: inline-block;
+  margin: ${props => props.margin ? props.margin : ''}
 `;
 
 export const TableComp = styled.table`
   color: #fff;
+  border: 1px solid #8C96A0;
+  box-shadow: 10px 10px 10px #8C96A0;
+  border-radius: 10px;
   margin: auto;
-  height: calc(100% - 3rem);
-  width: 95%;
-  border-collapse: collapse;
+  height: auto;
+  width: 50%;
+  border-collapse: unset;
+  border-spacing: unset;
   @media (max-width: 700px) {
     font-size: x-small;
   }
@@ -77,15 +84,21 @@ export const TableComp = styled.table`
 export const TableBody = styled.tbody``;
 
 export const TableCol = styled.th`
-  text-decoration: ${props => (props.header ? "underline" : "")};
+  ${props => props.arrow ? "display: inline-flex;"  : ""};
+  ${props => props.arrow ? "position: absolute"  : "position: relative"};
+  ${props => props.arrow ? "left: 10px;"  : ""};
+  ${props => props.headerLeft ? "border-top-left-radius: 10px;"  : ""};
+  ${props => props.headerRight ? "border-top-right-radius: 10px;"  : ""};
+  ;
 `;
 
 export const TableRow = styled.tr`
   text-align: ${props => (props.header ? "center" : "")};
   margin-bottom: 0.2rem;
-  background-color: ${props => (props.relegation ? "#a9a939" : "")};
-  background-color: ${props => (props.down ? "#b54343" : "")};
-  background-color: ${props => (props.top ? "#419241" : "")};
+  background-color: ${props => (props.even ? "#dedede" : "")};
+  background-color: ${props => (props.header ? "#868686" : "")};
+  height: ${props => (props.header ? "2.5rem" : "2rem")};
+  font-size: ${props => (props.header ? "20px" : "16px")};
   @media (max-width: 700px) {
     margin-bottom: 0;
   }
@@ -93,16 +106,24 @@ export const TableRow = styled.tr`
 
 export const Text = styled.span`
   color: ${props => props.color ? props.color : 'black'};
-  ${props => (props.fontSize ? `font-size: ${props.fontSize}` : "12px")};
+  ${props => (props.fontSize ? `font-size: ${props.fontSize}` : "")};
   ${props => (props.italic ? `font-style: italic` : "")};
   ${props =>
-    props.fontWeight ? `font-weight: ${props.fontWeight}` : "normal"};
-  ${props => (props.padding ? `padding: ${props.padding}` : "0")};
+    props.fontWeight ? `font-weight: ${props.fontWeight}` : "font-weight: normal"};
+  ${props => (props.padding ? `padding: ${props.padding}` : "padding: 0")};
   display: inline-block;
   vertical-align: middle;
+  margin: auto;
+  ${props => props.justify ? "text-align: justify": ''}
+  ${props => (props.width ? `width: ${props.width}` : "")};
+  ${props => (props.height ? `height: ${props.height}` : "")};
   &:hover {
     ${props => (props.hoverEffect ? "cursor: pointer" : "")};
   }
+`;
+export const BlockContainer = styled.div`
+  ${props => (props.margin ? `margin: ${props.margin}` : "")};
+  ${props => (props.width ? `width: ${props.width}` : "")};
 `;
 
 export const TrainingComp = styled.div`
@@ -167,9 +188,9 @@ export const FooterComp = TrainingComp.extend`
 `;
 
 export const Partner = styled.div`
-width: 15rem;
+  width: 15rem;
   height: 10rem;
-  margin: 2rem;
+  margin: auto;
   text-align: center;
 `;
 
@@ -244,7 +265,14 @@ export const LeagueLogo = styled.img`
 `;
 
 export const Divider = styled.div`
-  width: 8rem;
-  border: 1.5px solid white;
+  width: ${props => props.wide ? '60%' : '8rem'};
+  border: ${props => props.thin ? '.5px': '1.5px'} solid ${props => props.dark ? 'black' : 'white'};
   margin: 2rem auto;
+`;
+
+export const FlexContainer = styled.div`
+  display: inline-flex;
+  width: 100%;
+  height: 24rem;
+  margin: 2rem 0;
 `;

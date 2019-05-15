@@ -10,38 +10,40 @@ class Table extends Component {
       <TableComp>
         <TableBody>
           <TableRow header>
-            <TableCol>
-              <Text>Platz</Text>
+            <TableCol headerLeft>
+              <Text fontWeight={'bold'}>Platz</Text>
             </TableCol>
             <TableCol>
-              <Text>Mannschaft</Text>
+              <Text fontWeight={'bold'}>Mannschaft</Text>
             </TableCol>
             <TableCol>
-              <Text>Sp.</Text>
+              <Text fontWeight={'bold'}>Sp.</Text>
             </TableCol>
             <TableCol>
-              <Text>Tordiff.</Text>
+              <Text fontWeight={'bold'}>Tordiff.</Text>
             </TableCol>
-            <TableCol>
-              <Text>Pkt.</Text>
+            <TableCol headerRight>
+              <Text fontWeight={'bold'}>Pkt.</Text>
             </TableCol>
           </TableRow>
           {Teams.map((team, index) =>
-            <TableRow top={index + 1 === 1} down={index + 1 === 8 || index + 1 === 9}>
+            <TableRow even={index % 2 === 1} >
               <TableCol>
-                <Text>{index + 1}</Text>
+                {index === 0 && <TableCol arrow><i className="fas fa-arrow-up" style={{color: "green"}}/></TableCol>}
+                {(index === 7 || index === 8) && <TableCol arrow><i className="fas fa-arrow-down" style={{color: "red"}}/></TableCol>}
+                <Text fontWeight={team.own && "bold"}>{index + 1}</Text>
               </TableCol>
               <TableCol>
-                <Text>{team.name}</Text>
+                <Text fontWeight={team.own && "bold"}>{team.name}</Text>
               </TableCol>
               <TableCol>
-                <Text>{team.spiele}</Text>
+                <Text fontWeight={team.own && "bold"}>{team.spiele}</Text>
               </TableCol>
               <TableCol>
-                <Text>{team.diff}</Text>
+                <Text fontWeight={team.own && "bold"}>{team.diff}</Text>
               </TableCol>
               <TableCol>
-                <Text>{team.punkte}</Text>
+                <Text fontWeight={team.own && "bold"}>{team.punkte}</Text>
               </TableCol>
             </TableRow>
           )}

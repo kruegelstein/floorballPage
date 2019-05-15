@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 
 // Styled-components
-import {SeasonComp, InlineContainer} from "../Main.js";
+import {SeasonComp} from "../Main.js";
 
 // Components
 import Table from './Table.jsx'
 import NextGame from './NextGame.jsx'
-import UpcommingEvents from './UpcommingEvents.jsx'
+// import UpcommingEvents from './UpcommingEvents.jsx'
 
 
 class SeasonSection extends Component {
@@ -14,12 +14,8 @@ class SeasonSection extends Component {
     return (
       <SeasonComp>
         <NextGame />
-        <InlineContainer>
-          <UpcommingEvents />
-        </InlineContainer>
-        <InlineContainer>
-          <Table />
-        </InlineContainer>
+        <Table />
+        {/*<UpcommingEvents />*/}
       </SeasonComp>
     );
   }
