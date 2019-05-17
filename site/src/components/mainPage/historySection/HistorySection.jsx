@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 // Styled-Components
-import {HistoryComp, TimeLine, TimeItemLeft, TimeItemRight, TimeItemContent} from '../Main.js'
+import {HistoryTitle, HistoryComp, TimeLine, TimeItemLeft, TimeItemRight, TimeItemContent} from '../Main.js'
 
 
 
@@ -10,6 +10,9 @@ class HistorySection extends Component {
   render() {
     return (
       <HistoryComp>
+        <HistoryTitle>
+        Geschichte und Erfolge
+        </HistoryTitle>
         <TimeLine>
           <TimeItemLeft>
             <TimeItemContent>

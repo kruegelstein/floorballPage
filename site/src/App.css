@@ -1,3 +1,7 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
 .App {
   text-align: center;
   position: absolute;
@@ -5,5 +9,4 @@
   right: 0;
   top: 0;
   bottom: 0;
-  font-family: abadi extra light;
 }

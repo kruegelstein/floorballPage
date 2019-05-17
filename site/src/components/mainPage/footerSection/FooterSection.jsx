@@ -5,6 +5,8 @@ import {FooterComp} from "../Main.js";
 
 // Components
 import SocialMedia from './SocialMedia.jsx'
+import Links from './Links.jsx'
+import Infos from './Infos.jsx'
 
 
 class FooterSection extends Component {
@@ -12,6 +14,8 @@ class FooterSection extends Component {
     return (
       <FooterComp>
         <SocialMedia />
+        <Infos />
+        <Links />
       </FooterComp>
     );
   }

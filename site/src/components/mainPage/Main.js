@@ -181,6 +181,11 @@ export const IconContainer = styled.div`
 
 export const SocialMediaComp = styled.div`
   display: inline-flex;
+  margin: 0 2rem;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 `;
 
 export const PartnerComp = SeasonComp.extend`
@@ -189,7 +194,9 @@ export const PartnerComp = SeasonComp.extend`
 `;
 
 export const FooterComp = TrainingComp.extend`
-  height: 10rem;
+  height: 7rem;
+  position: relative;
+  background-color: #3b3b3c
 `;
 
 export const Partner = styled.div`
@@ -422,6 +429,50 @@ export const HistoryComp = styled.div`
   background-color: #3d4d64;
   height: auto;
   width: 100%;
-  margin: 2rem 0;
+  margin: 2rem 0 0 0;
+  padding-bottom: 2rem;
+  display: block;
+`;
+
+export const HistoryTitle = styled.h2`
+  font-weight: bold;
+  text-decoration: underline;
+  padding-top: 2rem;
+  color: white;
+`;
+
+export const SocialText = styled.p`
+  color: white;
+  margin-right: 1.5rem;
+  font-size: 20px;
+  text-align: justify;
+  ${props => props.bold ? 'font-weight: bold' : ''}
+  vertical-align: middle;
+  line-height: 40px;
+`
+
+export const LinksComp = styled.div`
   display: inline-flex;
+  margin: 0 2rem;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+`;
+
+export const InfosComp = styled.div`
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  -ms-transform: translate(50%, -50%);
+  transform: translate(50%, -50%);
+`;
+
+export const InfosText = styled.span`
+  cursor: pointer;
+  font-size: 18px;
+  margin: 0 1rem;
+  color: white;
+  &:hover {
+    text-decoration: underline;
+  }
 `;
