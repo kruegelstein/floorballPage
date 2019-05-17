@@ -8,6 +8,7 @@ import SeasonSection from "./seasonSection/SeasonSection.jsx";
 import TrainingSection from "./trainingSection/TrainingSection.jsx";
 import PartnerSection from "./partnerSection/PartnerSection.jsx";
 import MediaSection from "./mediaSection/MediaSection.jsx";
+import HistorySection from "./historySection/HistorySection.jsx";
 import FooterSection from "./footerSection/FooterSection.jsx";
 
 
@@ -20,6 +21,7 @@ class MainPage extends Component {
         <TrainingSection />
         <PartnerSection />
         <MediaSection />
+        <HistorySection />
         <FooterSection />
       </MainComp>
     );
