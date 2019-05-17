@@ -355,7 +355,7 @@ export const TimeItemLeft = styled.div`
     height: 25px;
     right: -17px;
     background-color: white;
-    border: 4px solid #FF9F55;
+    border: 4px solid #8c949e;
     top: 15px;
     border-radius: 50%;
     z-index: 1;
@@ -389,7 +389,7 @@ export const TimeItemRight = styled.div`
     height: 25px;
     right: -17px;
     background-color: white;
-    border: 4px solid #FF9F55;
+    border: 4px solid #8c949e;
     top: 15px;
     border-radius: 50%;
     z-index: 1;
@@ -414,7 +414,8 @@ export const TimeItemContent = styled.div`
   padding: 20px 30px;
   background-color: white;
   position: relative;
-  border-radius: 6px;
+  border-radius: 12px;
+  box-shadow: 5px 5px 8px #8C96A0;
 `;
 
 export const HistoryComp = styled.div`
