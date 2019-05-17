@@ -5,13 +5,14 @@ import SCSLogo from "../../assets/Logo.png";
 import MapMarker from "../../assets/MapMarker.png";
 
 export const MainComp = styled.div`
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vh;
 `;
 
 export const HeaderComp = styled.div`
   height: 40rem;
   width: 100%;
+  max-width: 100%;
   background: url(${Hintergrund}) no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -22,11 +23,13 @@ export const HeaderComp = styled.div`
 export const MediaComp = styled.video`
   height: 40rem;
   width: 100%;
+  max-width: 100%;
 `;
 
 export const HeaderContainer = styled.div`
   height: 5rem;
   width: 100%;
+  max-width: 100%;
 `;
 
 export const Logo = styled.div`
@@ -60,6 +63,7 @@ export const HeaderTextSection = styled.p`
 
 export const SeasonComp = styled.div`
   width: 100%;
+  max-width: 100%;
   height: auto;
   position: relative;
   margin-bottom: 2rem;
@@ -135,6 +139,7 @@ export const TrainingComp = styled.div`
   background-color: #3d4d64;
   height: 40rem;
   width: 100%;
+  max-width: 100%;
   display: inline-flex;
 `;
 
@@ -285,6 +290,7 @@ export const Divider = styled.div`
 export const FlexContainer = styled.div`
   display: inline-flex;
   width: 100%;
+  max-width: 100%;
   height: 24rem;
   margin: 2rem 0;
 `;
@@ -292,6 +298,7 @@ export const FlexContainer = styled.div`
 export const Videos = styled.div`
   height: auto;
   width: 100%;
+  max-width: 100%;
 `;
 
 export const Video = styled.video`
@@ -429,6 +436,7 @@ export const HistoryComp = styled.div`
   background-color: #3d4d64;
   height: auto;
   width: 100%;
+  max-width: 100%;
   margin: 2rem 0 0 0;
   padding-bottom: 2rem;
   display: block;
@@ -476,3 +484,8 @@ export const InfosText = styled.span`
     text-decoration: underline;
   }
 `;
+
+export const Download = styled.a `
+text-decoration: none;
+
+`

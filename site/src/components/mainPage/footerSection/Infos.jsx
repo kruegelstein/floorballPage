@@ -1,13 +1,14 @@
 import React, { Component } from "react";
 
 // Styled-components
-import {InfosComp, InfosText} from '../Main.js'
+import {InfosComp, InfosText, Download} from '../Main.js'
+import Eintritt from "../../../assets/Eintritt.pdf";
 
 class Infos extends Component {
   render() {
     return (
       <InfosComp>
-        <InfosText>Eintrittsformular</InfosText>
+        <Download href={Eintritt} download><InfosText>Eintrittsformular</InfosText></Download>
         <InfosText>Impressum</InfosText>
       </InfosComp>
     );
