@@ -7,7 +7,7 @@ class HeaderSection extends Component {
   render() {
     return (
       <HeaderContainer>
-        <Logo />
+        <a href='https://www.scs-floorball.de/' target='_blank' rel="noopener noreferrer"><Logo /></a>
       </HeaderContainer>
     );
   }
