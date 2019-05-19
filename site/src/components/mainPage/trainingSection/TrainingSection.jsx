@@ -60,7 +60,7 @@ class TrainingSection extends Component {
             Tel: 0162 4923904
             </TrainingText>
             <TrainingText>
-            Mail: mailTo@aj-gay.de
+            Mail: info@scs-floorball.de
             </TrainingText>
           </TrainingTextContainer>
         </InlineContainer>
