@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 // Styled-components
-import {TableComp, TableBody, TableRow, TableCol, Text} from "../Main.js";
+import {TableComp, TableBody, TableRow, TableCol, Text, ArrowContainer} from "../Main.js";
 import {Teams} from '../../../constants/Teams.js'
 
 class Table extends Component {
@@ -27,10 +27,10 @@ class Table extends Component {
             </TableCol>
           </TableRow>
           {Teams.map((team, index) =>
-            <TableRow even={index % 2 === 1} >
+            <TableRow even={index % 2 === 1} key={index}>
               <TableCol>
-                {index === 0 && <TableCol arrow><i className="fas fa-arrow-up" style={{color: "green"}}/></TableCol>}
-                {(index === 7 || index === 8) && <TableCol arrow><i className="fas fa-arrow-down" style={{color: "red"}}/></TableCol>}
+                {index === 0 && <ArrowContainer arrow><i className="fas fa-arrow-up" style={{color: "green"}}/></ArrowContainer>}
+                {(index === 7 || index === 8) && <ArrowContainer arrow><i className="fas fa-arrow-down" style={{color: "red"}}/></ArrowContainer>}
                 <Text fontWeight={team.own && "bold"}>{index + 1}</Text>
               </TableCol>
               <TableCol>
