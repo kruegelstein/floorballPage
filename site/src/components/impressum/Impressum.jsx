@@ -31,10 +31,16 @@ class Impressum extends Component {
             <strong>Kontakt:</strong> <br />
             Telefon: 0152-26555544<br />
             E-Mail:{" "}
-            <a href="mailto:kruegelstein_berlin@web.de">
+            <a id='impLink' href="mailto:kruegelstein_berlin@web.de">
               kruegelstein_berlin@web.de
             </a>
             <br />
+          </p>
+          <p>
+            {" "}
+            <strong>Website erstellt: </strong>
+            <br />
+            Christopher Krügelstein<br />
           </p>
           <p>
             <strong>Haftungsausschluss: </strong>

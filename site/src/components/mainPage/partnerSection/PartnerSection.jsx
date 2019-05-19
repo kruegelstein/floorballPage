@@ -68,6 +68,27 @@ class PartnerSection extends Component {
         </InlineContainer>
       ))}
       </FlexContainer>
+      <BlockContainer>
+      <Divider dark thin wide/>
+      <BlockContainer margin={'0 auto 2rem auto'} width={'50%'}>
+      <Text fontSize={'18px'} fontWeight={'bold'}>
+      Werden auch Sie ein Partner!
+      </Text>
+      </BlockContainer>
+      <BlockContainer margin={'0 auto 2rem auto'} width={'50%'}>
+      <Text fontSize={'16px'}>
+      Unsere Spielausrüstung, Hallenausstattung und unsere Kommunikationskanäle liefern zahlreiche Möglichkeiten, Sie und Ihre Marke zu präsentieren. Durch unsere Zuschauer in Berlin, den deutschlandweiten Ligabetrieb, aber auch unsere Marketingaktivitäten erreichen wir ein breites Publikum.
+      Mit Ihrem Sponsoring unterstützen Sie unsere Mannschaft in der zweiten Bundesliga, die Aufrechterhaltung des kostspieligen Spielbetriebs sowie die Förderung unserer Hobby- und Jugendmannschaften.
+      Sprechen Sie uns an – gerne finden wir gemeinsam mit Ihnen eine individuelle Lösung. Kontaktieren Sie uns unter info@scs-floorball.de
+      </Text>
+      </BlockContainer>
+      <Divider dark/>
+      <BlockContainer margin={'0 auto 2rem auto'} width={'50%'}>
+      <Text fontSize={'16px'}>
+      Wir freuen uns auch über Unterstützung in kleinerem Rahmen – das ist zum Beispiel über Einkäufe über das Bonusprogramm <a id='klubkasseLink' href='https://www.klubkasse.de/verein/sc-siemensstadt-berlin-floorball.html' target='_blank' rel="noopener noreferrer">Klubkasse</a> möglich.
+      </Text>
+      </BlockContainer>
+      </BlockContainer>
       </>
     );
   }
