@@ -10,3 +10,7 @@ body {
   top: 0;
   bottom: 0;
 }
+
+.imprint {
+  text-decoration: none;
+}

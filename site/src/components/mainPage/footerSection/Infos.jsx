@@ -10,7 +10,7 @@ class Infos extends Component {
     return (
       <InfosComp>
         <Download href={Eintritt} download><InfosText>Eintrittsformular</InfosText></Download>
-        <Link to="/imprint">
+        <Link className='imprint' to="/imprint">
           <InfosText>Impressum</InfosText>
         </Link>
       </InfosComp>

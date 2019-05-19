@@ -1,8 +1,7 @@
 import styled from "styled-components";
 
-import Hintergrund from "../../assets/Hintergrund2.png";
+import Hintergrund from "../../assets/Hintergrund1.jpg";
 import SCSLogo from "../../assets/Logo.png";
-import Test from "../../assets/test.jpg";
 import MapMarker from "../../assets/MapMarker.png";
 
 export const MainComp = styled.div`
@@ -16,7 +15,7 @@ export const MainComp = styled.div`
 export const HeaderComp = styled.div`
   height: 40rem;
   width: 100%;
-  background: url(${Test}) no-repeat center;
+  background: url(${Hintergrund}) no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -43,15 +42,15 @@ export const HeaderContainer = styled.div`
 `;
 
 export const Logo = styled.div`
-  height: 6rem;
-  width: 6rem;
+  height: 8rem;
+  width: 8rem;
   position: absolute;
   margin: .5rem 2rem;
   background: url(${SCSLogo}) no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: contain;
 `;
 
 export const HeaderTextComp = styled.div`
