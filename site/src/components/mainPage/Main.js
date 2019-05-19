@@ -6,6 +6,7 @@ import Test from "../../assets/test.jpg";
 import MapMarker from "../../assets/MapMarker.png";
 
 export const MainComp = styled.div`
+  color:#2c2c2f;
   @media only screen (max-width: 600px) {
     width: 100vh;
     height: 100vh;
@@ -55,7 +56,7 @@ export const Logo = styled.div`
 
 export const HeaderTextComp = styled.div`
   text-align: center;
-  color: white;
+  color: #e0e0e0;
   width: 50%;
   margin: 10rem auto 0 auto;
 `;
@@ -87,7 +88,7 @@ export const InlineContainer = styled.div`
 `;
 
 export const TableComp = styled.table`
-  color: #fff;
+  color: #e0e0e0;
   border: 1px solid #8C96A0;
   box-shadow: 10px 10px 10px #8C96A0;
   border-radius: 10px;
@@ -125,7 +126,7 @@ export const TableRow = styled.tr`
 `;
 
 export const Text = styled.span`
-  color: ${props => props.color ? props.color : 'black'};
+  color: ${props => props.color ? props.color : '#2c2c2f'};
   ${props => (props.fontSize ? `font-size: ${props.fontSize}` : "")};
   ${props => (props.italic ? `font-style: italic` : "")};
   ${props =>
@@ -180,14 +181,14 @@ export const TrainingTextContainer = styled.div`
 `;
 
 export const TrainingTitle = styled.h2`
-  color: white;
+  color: #e0e0e0;
   font-weight: bold;
   text-decoration: underline;
   margin-bottom: 3rem;
 `;
 
 export const TrainingText = styled.p`
-  color: white;
+  color: #e0e0e0;
   margin: 1rem 0;
   font-size: 20px;
   text-align: justify;
@@ -240,7 +241,7 @@ export const PartnerName = styled.a`
   font-size: 16px;
   font-weight: bold;
   &: visited {
-    color: black;
+    color: #2c2c2f;
   }
 `;
 
@@ -298,7 +299,7 @@ export const LeagueLogo = styled.img`
 
 export const Divider = styled.div`
   width: ${props => props.wide ? '60%' : '8rem'};
-  border: ${props => props.thin ? '.5px': '1.5px'} solid ${props => props.dark ? 'black' : 'white'};
+  border: ${props => props.thin ? '.5px': '1.5px'} solid ${props => props.dark ? '#2c2c2f' : '#e0e0e0'};
   margin: 2rem auto;
 `;
 
@@ -332,7 +333,7 @@ export const Button = styled.button`
   cursor: pointer;
   font-size: 16px;
   box-sizing: border-box;
-  background-color: {props => props.light ? '#fff' : 'transparent'};
+  background-color: {props => props.light ? '#e0e0e0' : 'transparent'};
   color: rgb(53, 53, 53);
   border-radius: 20px;
   padding: 10px 24px;
@@ -348,7 +349,7 @@ export const Button = styled.button`
   }
   &:hover {
     background-color: #3d4d64;
-    color: #fff;
+    color: #e0e0e0;
     box-shadow: none;
     border-color: rgb(53, 53, 53);
   }
@@ -366,7 +367,7 @@ export const TimeLine = styled.div`
     content: '';
     position: absolute;
     width: 6px;
-    background-color: white;
+    background-color: #e0e0e0;
     top: 0;
     bottom: 0;
     left: 50%;
@@ -387,7 +388,7 @@ export const TimeItemLeft = styled.div`
     width: 25px;
     height: 25px;
     right: -17px;
-    background-color: white;
+    background-color: #e0e0e0;
     border: 4px solid #8c949e;
     top: 15px;
     border-radius: 50%;
@@ -401,9 +402,9 @@ export const TimeItemLeft = styled.div`
     width: 0;
     z-index: 1;
     right: 30px;
-    border: medium solid white;
+    border: medium solid #e0e0e0;
     border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent white;
+    border-color: transparent transparent transparent #e0e0e0;
   }
 `;
 
@@ -421,7 +422,7 @@ export const TimeItemRight = styled.div`
     width: 25px;
     height: 25px;
     right: -17px;
-    background-color: white;
+    background-color: #e0e0e0;
     border: 4px solid #8c949e;
     top: 15px;
     border-radius: 50%;
@@ -436,16 +437,16 @@ export const TimeItemRight = styled.div`
     width: 0;
     z-index: 1;
     left: 30px;
-    border: medium solid white;
+    border: medium solid #e0e0e0;
     border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
+    border-color: transparent #e0e0e0 transparent transparent;
   }
 `;
 
 export const TimeItemContent = styled.div`
   box-sizing: border-box;
   padding: 20px 30px;
-  background-color: white;
+  background-color: #e0e0e0;
   position: relative;
   border-radius: 12px;
   box-shadow: 5px 5px 8px #8C96A0;
@@ -467,11 +468,11 @@ export const HistoryTitle = styled.h2`
   font-weight: bold;
   text-decoration: underline;
   padding-top: 2rem;
-  color: white;
+  color: #e0e0e0;
 `;
 
 export const SocialText = styled.p`
-  color: white;
+  color: #e0e0e0;
   margin-right: 1.5rem;
   font-size: 20px;
   text-align: justify;
@@ -500,7 +501,7 @@ export const InfosText = styled.span`
   cursor: pointer;
   font-size: 18px;
   margin: 0 1rem;
-  color: white;
+  color: #e0e0e0;
   &:hover {
     text-decoration: underline;
   }
@@ -519,6 +520,6 @@ export const ArrowContainer = styled.div`
 
 export const ImprintContainer = styled.div`
   background-color: #3d4d64;
-  color: #fff;
+  color: #e0e0e0;
   padding: 2rem;
 `;
