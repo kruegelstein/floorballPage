@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 // Styled-components
 import {InfosComp, InfosText, Download} from '../Main.js'
@@ -9,7 +10,9 @@ class Infos extends Component {
     return (
       <InfosComp>
         <Download href={Eintritt} download><InfosText>Eintrittsformular</InfosText></Download>
-        <InfosText>Impressum</InfosText>
+        <Link to="/imprint">
+          <InfosText>Impressum</InfosText>
+        </Link>
       </InfosComp>
     );
   }

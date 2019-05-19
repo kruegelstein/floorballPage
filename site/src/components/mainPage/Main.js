@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 import Hintergrund from "../../assets/Hintergrund2.png";
 import SCSLogo from "../../assets/Logo.png";
+import Test from "../../assets/test.jpg";
 import MapMarker from "../../assets/MapMarker.png";
 
 export const MainComp = styled.div`
@@ -14,7 +15,7 @@ export const MainComp = styled.div`
 export const HeaderComp = styled.div`
   height: 40rem;
   width: 100%;
-  background: url(${Hintergrund}) no-repeat center;
+  background: url(${Test}) no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -331,7 +332,7 @@ export const Button = styled.button`
   cursor: pointer;
   font-size: 16px;
   box-sizing: border-box;
-  background-color: transparent;
+  background-color: {props => props.light ? '#fff' : 'transparent'};
   color: rgb(53, 53, 53);
   border-radius: 20px;
   padding: 10px 24px;
@@ -514,4 +515,10 @@ export const ArrowContainer = styled.div`
   display: inline-block;
   left: 0;
   margin-left: 1rem;
+`;
+
+export const ImprintContainer = styled.div`
+  background-color: #3d4d64;
+  color: #fff;
+  padding: 2rem;
 `;

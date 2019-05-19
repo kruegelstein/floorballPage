@@ -119,7 +119,7 @@ class MediaSection extends React.Component {
       <MediaComp autoPlay muted loop>
       <source src={Videoplayback} type="video/mp4"/>
       </MediaComp>
-      <Videos>
+      {false && <Videos>
       <PartnerTitle>
       Aktuelle Videos der Floorball Abteilung des SC Siemensstadt
       </PartnerTitle>
@@ -155,7 +155,7 @@ class MediaSection extends React.Component {
         </BlockContainer>
         <Button onClick={() => this.toggleVideo('video_4')}>{this.state['video_4'].isPlaying ? 'Pause' : 'Play'}</Button>
       </BlockContainer>
-      </Videos>
+      </Videos>}
       </>
     );
   }
