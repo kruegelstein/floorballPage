@@ -7,8 +7,7 @@ import MapMarker from "../../assets/MapMarker.png";
 export const MainComp = styled.div`
   color: #2c2c2f;
   @media only screen and (max-width: 600px) {
-    width: 100vh;
-    height: 100vh;
+    width: ${props => props.mobileWidth};
   }
 `;
 
@@ -20,7 +19,7 @@ export const HeaderComp = styled.div`
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  @media only screen (max-width: 600px) {
+  @media only screen and (max-width: 600px) {
     max-width: 100%;
   }
 `;

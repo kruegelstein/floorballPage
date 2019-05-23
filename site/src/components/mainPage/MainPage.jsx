@@ -13,8 +13,9 @@ import FooterSection from "./footerSection/FooterSection.jsx";
 
 class MainPage extends Component {
   render() {
+    const screenWidth = window.screen.width;
     return (
-      <MainComp>
+      <MainComp mobileWidth={`${screenWidth * window.devicePixelRatio}px`}>
         <HeaderSection />
         <SeasonSection />
         <TrainingSection />
