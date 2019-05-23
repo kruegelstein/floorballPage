@@ -19,25 +19,16 @@ export const HeaderComp = styled.div`
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  @media only screen and (max-width: 600px) {
-    max-width: 100%;
-  }
 `;
 
 export const MediaComp = styled.video`
   height: auto;
   width: 100%;
-  @media (max-width: 600px) {
-    max-width: 100%;
-  }
 `;
 
 export const HeaderContainer = styled.div`
   height: 5rem;
   width: 100%;
-  @media (max-width: 600px) {
-    max-width: 100%;
-  }
 `;
 
 export const Logo = styled.div`
@@ -75,9 +66,6 @@ export const SeasonComp = styled.div`
   height: auto;
   position: relative;
   margin-bottom: 2rem;
-  @media (max-width: 600px) {
-    max-width: 100%;
-  }
 `;
 
 export const InlineContainer = styled.div`
@@ -97,9 +85,6 @@ export const TableComp = styled.table`
   width: 50%;
   border-collapse: unset;
   border-spacing: unset;
-  @media (max-width: 700px) {
-    font-size: x-small;
-  }
 `;
 
 export const TableBody = styled.tbody``;
@@ -119,9 +104,6 @@ export const TableRow = styled.tr`
   background-color: ${props => (props.header ? "#868686" : "")};
   height: ${props => (props.header ? "2.5rem" : "2rem")};
   font-size: ${props => (props.header ? "20px" : "16px")};
-  @media (max-width: 700px) {
-    margin-bottom: 0;
-  }
 `;
 
 export const Text = styled.span`
@@ -153,9 +135,6 @@ export const TrainingComp = styled.div`
   height: auto;
   width: 100%;
   display: inline-flex;
-  @media (max-width: 600px) {
-    max-width: 100%;
-  }
 `;
 
 export const Marker = styled.div`
@@ -216,6 +195,9 @@ export const FooterComp = TrainingComp.extend`
   height: 7rem;
   position: relative;
   background-color: #3b3b3c;
+  @media only screen and (max-width: 600px) {
+    height: 10rem;
+  }
 `;
 
 export const Partner = styled.div`
@@ -230,9 +212,6 @@ export const PartnerIcon = styled.img`
   width: 100%;
   height: 100%;
   object-fit: cover;
-  @media (max-width: 600px) {
-    max-width: 100%;
-  }
 `;
 
 export const PartnerName = styled.a`
@@ -310,17 +289,11 @@ export const FlexContainer = styled.div`
   width: 100%;
   height: auto;
   margin: ${props => (props.margin ? props.margin : "")};
-  @media (max-width: 600px) {
-    max-width: 100%;
-  }
 `;
 
 export const Videos = styled.div`
   height: auto;
   width: 100%;
-  @media (max-width: 600px) {
-    max-width: 100%;
-  }
 `;
 
 export const Video = styled.video`
@@ -461,9 +434,6 @@ export const HistoryComp = styled.div`
   width: 100%;
   padding-bottom: 2rem;
   display: block;
-  @media (max-width: 600px) {
-    max-width: 100%;
-  }
 `;
 
 export const HistoryTitle = styled.h2`
@@ -497,6 +467,9 @@ export const InfosComp = styled.div`
   right: 50%;
   -ms-transform: translate(50%, -50%);
   transform: translate(50%, -50%);
+  @media only screen and (max-width: 600px) {
+    right: 40%;
+  }
 `;
 
 export const InfosText = styled.span`
@@ -506,6 +479,9 @@ export const InfosText = styled.span`
   color: #e8e8e8;
   &:hover {
     text-decoration: underline;
+  }
+  @media only screen and (max-width: 600px) {
+    font-size: 26px;
   }
 `;
 

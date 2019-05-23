@@ -32,7 +32,7 @@ class PartnerSection extends Component {
             Erfolg für den SC Siemensstadt. Mit der Aufnahme des Spielbetriebs
             auf nationaler Ebene kamen aber auch Herausforderungen auf die noch
             junge Abteilung des Vereins zu, die ohne Partner nicht zu stemmen
-            gewesen wäre. Wir bedanken uns bei allen Unterstützenden, die unsere
+            gewesen wäre. Wir bedanken uns bei allen Unterstützern, die unsere
             Ligateilnahme in der Saison 2018/2019 möglich gemacht haben.
           </Text>
         </BlockContainer>
