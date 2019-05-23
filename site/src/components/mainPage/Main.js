@@ -6,14 +6,14 @@ import MapMarker from "../../assets/MapMarker.png";
 
 export const MainComp = styled.div`
   color: #2c2c2f;
-  @media only screen (max-width: 600px) {
+  @media only screen and (max-width: 600px) {
     width: 100vh;
     height: 100vh;
   }
 `;
 
 export const HeaderComp = styled.div`
-  height: 40rem;
+  height: auto;
   width: 100%;
   background: url(${Hintergrund}) no-repeat;
   -webkit-background-size: cover;
@@ -26,7 +26,7 @@ export const HeaderComp = styled.div`
 `;
 
 export const MediaComp = styled.video`
-  height: 40rem;
+  height: auto;
   width: 100%;
   @media (max-width: 600px) {
     max-width: 100%;
@@ -55,7 +55,7 @@ export const Logo = styled.div`
 
 export const HeaderTextComp = styled.div`
   text-align: center;
-  color: #e0e0e0;
+  color: #e8e8e8;
   width: 50%;
   margin: 10rem auto 0 auto;
 `;
@@ -67,6 +67,7 @@ export const HeaderTitle = styled.h1`
 
 export const HeaderTextSection = styled.p`
   font-size: 22px;
+  padding-bottom: 2rem;
   text-align: justify;
 `;
 
@@ -83,11 +84,12 @@ export const SeasonComp = styled.div`
 export const InlineContainer = styled.div`
   width: 50%;
   display: inline-block;
+  justify-content: center;
   margin: ${props => (props.margin ? props.margin : "")};
 `;
 
 export const TableComp = styled.table`
-  color: #e0e0e0;
+  color: #e8e8e8;
   border: 1px solid #8c96a0;
   box-shadow: 10px 10px 10px #8c96a0;
   border-radius: 10px;
@@ -149,7 +151,7 @@ export const BlockContainer = styled.div`
 
 export const TrainingComp = styled.div`
   background-color: #3d4d64;
-  height: 40rem;
+  height: auto;
   width: 100%;
   display: inline-flex;
   @media (max-width: 600px) {
@@ -181,14 +183,14 @@ export const TrainingTextContainer = styled.div`
 `;
 
 export const TrainingTitle = styled.h2`
-  color: #e0e0e0;
+  color: #e8e8e8;
   font-weight: bold;
   text-decoration: underline;
   margin-bottom: 3rem;
 `;
 
 export const TrainingText = styled.p`
-  color: #e0e0e0;
+  color: #e8e8e8;
   margin: 1rem 0;
   font-size: 20px;
   text-align: justify;
@@ -208,7 +210,7 @@ export const SocialMediaComp = styled.div`
 
 export const PartnerComp = SeasonComp.extend`
   display: inline-flex;
-  height: 20rem;
+  height: auto;
 `;
 
 export const FooterComp = TrainingComp.extend`
@@ -219,7 +221,7 @@ export const FooterComp = TrainingComp.extend`
 
 export const Partner = styled.div`
   width: 15rem;
-  height: 10rem;
+  height: 7rem;
   margin: auto;
   text-align: center;
 `;
@@ -239,6 +241,8 @@ export const PartnerName = styled.a`
   text-decoration: none;
   font-size: 16px;
   font-weight: bold;
+  margin-top: 1rem;
+  color: #2c2c2f;
   &: visited {
     color: #2c2c2f;
   }
@@ -248,10 +252,11 @@ export const PartnerTitle = styled.h2`
   font-weight: bold;
   text-decoration: underline;
   margin-bottom: 3rem;
+  margin-top: ${props => (props.withTopMargin ? "4rem" : "")};
 `;
 
 export const NextGameComp = styled.div`
-  height: 20rem;
+  height: auto;
   display: inline-flex;
   margin: 2rem auto;
   border-bottom: 1px solid grey;
@@ -297,15 +302,15 @@ export const LeagueLogo = styled.img`
 export const Divider = styled.div`
   width: ${props => (props.wide ? "60%" : "8rem")};
   border: ${props => (props.thin ? ".5px" : "1.5px")} solid
-    ${props => (props.dark ? "#2c2c2f" : "#e0e0e0")};
+    ${props => (props.dark ? "#2c2c2f" : "#e8e8e8")};
   margin: 2rem auto;
 `;
 
 export const FlexContainer = styled.div`
   display: inline-flex;
   width: 100%;
-  height: 24rem;
-  margin: 2rem 0;
+  height: auto;
+  margin: ${props => (props.margin ? props.margin : "")};
   @media (max-width: 600px) {
     max-width: 100%;
   }
@@ -320,7 +325,7 @@ export const Videos = styled.div`
 `;
 
 export const Video = styled.video`
-  height: 20rem;
+  height: auto;
   display: block;
   margin: 2rem auto;
   border-radius: 2px;
@@ -332,7 +337,7 @@ export const Button = styled.button`
   font-size: 16px;
   box-sizing: border-box;
   background-color: {
-    props=> props.light ? '#e0e0e0' : "transparent";
+    props=>props.light?'#e8e8e8': "transparent";
   }
   color: rgb(53, 53, 53);
   border-radius: 20px;
@@ -349,7 +354,7 @@ export const Button = styled.button`
   }
   &:hover {
     background-color: #3d4d64;
-    color: #e0e0e0;
+    color: #e8e8e8;
     box-shadow: none;
     border-color: rgb(53, 53, 53);
   }
@@ -367,7 +372,7 @@ export const TimeLine = styled.div`
     content: "";
     position: absolute;
     width: 6px;
-    background-color: #e0e0e0;
+    background-color: #e8e8e8;
     top: 0;
     bottom: 0;
     left: 50%;
@@ -388,7 +393,7 @@ export const TimeItemLeft = styled.div`
     width: 25px;
     height: 25px;
     right: -17px;
-    background-color: #e0e0e0;
+    background-color: #e8e8e8;
     border: 4px solid #8c949e;
     top: 15px;
     border-radius: 50%;
@@ -402,9 +407,9 @@ export const TimeItemLeft = styled.div`
     width: 0;
     z-index: 1;
     right: 30px;
-    border: medium solid #e0e0e0;
+    border: medium solid #e8e8e8;
     border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent #e0e0e0;
+    border-color: transparent transparent transparent #e8e8e8;
   }
 `;
 
@@ -421,7 +426,7 @@ export const TimeItemRight = styled.div`
     width: 25px;
     height: 25px;
     right: -17px;
-    background-color: #e0e0e0;
+    background-color: #e8e8e8;
     border: 4px solid #8c949e;
     top: 15px;
     border-radius: 50%;
@@ -436,16 +441,16 @@ export const TimeItemRight = styled.div`
     width: 0;
     z-index: 1;
     left: 30px;
-    border: medium solid #e0e0e0;
+    border: medium solid #e8e8e8;
     border-width: 10px 10px 10px 0;
-    border-color: transparent #e0e0e0 transparent transparent;
+    border-color: transparent #e8e8e8 transparent transparent;
   }
 `;
 
 export const TimeItemContent = styled.div`
   box-sizing: border-box;
   padding: 20px 30px;
-  background-color: #e0e0e0;
+  background-color: #e8e8e8;
   position: relative;
   border-radius: 12px;
   box-shadow: 5px 5px 8px #8c96a0;
@@ -455,7 +460,6 @@ export const HistoryComp = styled.div`
   background-color: #3d4d64;
   height: auto;
   width: 100%;
-  margin: 2rem 0 0 0;
   padding-bottom: 2rem;
   display: block;
   @media (max-width: 600px) {
@@ -467,11 +471,11 @@ export const HistoryTitle = styled.h2`
   font-weight: bold;
   text-decoration: underline;
   padding-top: 2rem;
-  color: #e0e0e0;
+  color: #e8e8e8;
 `;
 
 export const SocialText = styled.p`
-  color: #e0e0e0;
+  color: #e8e8e8;
   margin-right: 1.5rem;
   font-size: 20px;
   text-align: justify;
@@ -500,7 +504,7 @@ export const InfosText = styled.span`
   cursor: pointer;
   font-size: 18px;
   margin: 0 1rem;
-  color: #e0e0e0;
+  color: #e8e8e8;
   &:hover {
     text-decoration: underline;
   }
@@ -519,6 +523,6 @@ export const ArrowContainer = styled.div`
 
 export const ImprintContainer = styled.div`
   background-color: #3d4d64;
-  color: #e0e0e0;
+  color: #e8e8e8;
   padding: 2rem;
 `;

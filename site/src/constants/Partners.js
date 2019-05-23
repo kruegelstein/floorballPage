@@ -46,7 +46,7 @@ export const Partners = [
   {
     title: "Floorball deutschland",
     text:
-      "Auch bei floorball deutschland, dem Floorball-Verband Deutschland, möchten wir uns für die Unterstützung bedanken.",
+      "Auch bei Floorball Deutschland, dem Floorball-Verband Deutschland, möchten wir uns für die Unterstützung bedanken.",
     link: "www.floorball.de",
     href: "https://www.floorball.de/",
     src: FloorballDeutschland,

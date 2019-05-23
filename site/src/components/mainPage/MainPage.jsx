@@ -18,9 +18,9 @@ class MainPage extends Component {
         <HeaderSection />
         <SeasonSection />
         <TrainingSection />
-        <PartnerSection />
         <MediaSection />
         <HistorySection />
+        <PartnerSection />
         <FooterSection />
       </MainComp>
     );

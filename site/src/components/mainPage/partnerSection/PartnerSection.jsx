@@ -37,7 +37,7 @@ class PartnerSection extends Component {
           </Text>
         </BlockContainer>
         <Divider dark />
-        <FlexContainer>
+        <FlexContainer margin={"0 0 2rem 0"}>
           {Partners.filter((partner, index) => index < 3).map(
             (partner, index) => (
               <InlineContainer key={index}>
@@ -47,7 +47,7 @@ class PartnerSection extends Component {
                   </Text>
                 </BlockContainer>
                 <BlockContainer margin={"0 auto 2rem auto"} width={"50%"}>
-                  <Text height={"6rem"} fontSize={"16px"} justify>
+                  <Text height={"10rem"} fontSize={"16px"} justify>
                     {partner.text}
                   </Text>
                 </BlockContainer>
@@ -74,14 +74,14 @@ class PartnerSection extends Component {
         <FlexContainer>
           {Partners.filter((partner, index) => index > 2).map(
             (partner, index) => (
-              <InlineContainer margin={"2rem"} key={index}>
+              <InlineContainer margin={"0 2rem 2rem 2rem"} key={index}>
                 <BlockContainer margin={"0 auto 1rem auto"} width={"20rem"}>
                   <Text fontSize={"18px"} fontWeight={"bold"}>
                     {partner.title}
                   </Text>
                 </BlockContainer>
-                <BlockContainer margin={"0 auto 2rem auto"} width={"50%"}>
-                  <Text height={"6rem"} fontSize={"16px"} justify>
+                <BlockContainer margin={"0 auto 2rem auto"} width={"40%"}>
+                  <Text height={"10rem"} fontSize={"16px"} justify>
                     {partner.text}
                   </Text>
                 </BlockContainer>
@@ -105,12 +105,9 @@ class PartnerSection extends Component {
           )}
         </FlexContainer>
         <BlockContainer>
-          <Divider dark thin wide />
-          <BlockContainer margin={"0 auto 2rem auto"} width={"50%"}>
-            <Text fontSize={"18px"} fontWeight={"bold"}>
-              Werden auch Sie ein Partner!
-            </Text>
-          </BlockContainer>
+          <PartnerTitle withTopMargin>
+            Werden auch Sie ein Partner!{" "}
+          </PartnerTitle>
           <BlockContainer margin={"0 auto 2rem auto"} width={"50%"}>
             <Text fontSize={"16px"}>
               Unsere Spielausrüstung, Hallenausstattung und unsere
