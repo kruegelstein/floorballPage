@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 
 // Styled-components
-import {LinksComp, Text} from '../Main.js'
+import { LinksComp, Text } from "../Main.js";
 
 class Links extends Component {
   render() {
     return (
       <LinksComp>
-        <Text color={'white'}>© Krügelstein 2019</Text>
+        <Text color={"white"}>© Krügelstein 2019</Text>
       </LinksComp>
     );
   }

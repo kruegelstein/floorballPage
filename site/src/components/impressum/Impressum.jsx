@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
 // Styled components
-import {BlockContainer, Button, ImprintContainer} from "../mainPage/Main.js";
+import { BlockContainer, Button, ImprintContainer } from "../mainPage/Main.js";
 
 class Impressum extends Component {
   render() {
@@ -25,13 +25,15 @@ class Impressum extends Component {
             {" "}
             <strong>Vertreten durch: </strong>
             <br />
-            Christopher Krügelstein<br />
+            Christopher Krügelstein
+            <br />
           </p>
           <p>
             <strong>Kontakt:</strong> <br />
-            Telefon: 0152-26555544<br />
+            Telefon: 0152-26555544
+            <br />
             E-Mail:{" "}
-            <a id='impLink' href="mailto:kruegelstein_berlin@web.de">
+            <a id="impLink" href="mailto:kruegelstein_berlin@web.de">
               kruegelstein_berlin@web.de
             </a>
             <br />
@@ -40,7 +42,8 @@ class Impressum extends Component {
             {" "}
             <strong>Website erstellt: </strong>
             <br />
-            Christopher Krügelstein<br />
+            Christopher Krügelstein
+            <br />
           </p>
           <p>
             <strong>Haftungsausschluss: </strong>
@@ -62,7 +65,8 @@ class Impressum extends Component {
             unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem
             Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei
             Bekanntwerden von entsprechenden Rechtsverletzungen werden wir diese
-            Inhalte umgehend entfernen.<br />
+            Inhalte umgehend entfernen.
+            <br />
             <br />
             <strong>Haftung für Links</strong>
             <br />
@@ -77,7 +81,8 @@ class Impressum extends Component {
             erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten
             Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung
             nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir
-            derartige Links umgehend entfernen.<br />
+            derartige Links umgehend entfernen.
+            <br />
             <br />
             <strong>Urheberrecht</strong>
             <br />
@@ -94,7 +99,8 @@ class Impressum extends Component {
             gekennzeichnet. Sollten Sie trotzdem auf eine
             Urheberrechtsverletzung aufmerksam werden, bitten wir um einen
             entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen
-            werden wir derartige Inhalte umgehend entfernen.<br />
+            werden wir derartige Inhalte umgehend entfernen.
+            <br />
             <br />
             <strong>Google Analytics</strong>
             <br />
@@ -121,7 +127,8 @@ class Impressum extends Component {
             umfänglich nutzen können. Durch die Nutzung dieser Website erklären
             Sie sich mit der Bearbeitung der über Sie erhobenen Daten durch
             Google in der zuvor beschriebenen Art und Weise und zu dem zuvor
-            benannten Zweck einverstanden.<br />
+            benannten Zweck einverstanden.
+            <br />
             <br />
             <strong>Google AdSense</strong>
             <br />

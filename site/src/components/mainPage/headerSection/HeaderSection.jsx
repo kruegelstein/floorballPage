@@ -1,12 +1,11 @@
 import React, { Component } from "react";
 
 // Styled-components
-import {HeaderComp} from "../Main.js";
+import { HeaderComp } from "../Main.js";
 
 // Components
-import HeaderRow from './Header.jsx'
-import HeaderText from './HeaderText.jsx'
-
+import HeaderRow from "./Header.jsx";
+import HeaderText from "./HeaderText.jsx";
 
 class HeaderSection extends Component {
   render() {

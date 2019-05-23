@@ -1,7 +1,7 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 
-import MainPage from './components/mainPage/MainPage.jsx'
+import MainPage from "./components/mainPage/MainPage.jsx";
 
 const App = () => {
   return (
@@ -9,6 +9,6 @@ const App = () => {
       <MainPage />
     </div>
   );
-}
+};
 
 export default App;

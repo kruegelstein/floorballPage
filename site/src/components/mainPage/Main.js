@@ -5,7 +5,7 @@ import SCSLogo from "../../assets/Logo.png";
 import MapMarker from "../../assets/MapMarker.png";
 
 export const MainComp = styled.div`
-  color:#2c2c2f;
+  color: #2c2c2f;
   @media only screen (max-width: 600px) {
     width: 100vh;
     height: 100vh;
@@ -45,7 +45,7 @@ export const Logo = styled.div`
   height: 8rem;
   width: 8rem;
   position: absolute;
-  margin: .5rem 2rem;
+  margin: 0.5rem 2rem;
   background: url(${SCSLogo}) no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -83,13 +83,13 @@ export const SeasonComp = styled.div`
 export const InlineContainer = styled.div`
   width: 50%;
   display: inline-block;
-  margin: ${props => props.margin ? props.margin : ''}
+  margin: ${props => (props.margin ? props.margin : "")};
 `;
 
 export const TableComp = styled.table`
   color: #e0e0e0;
-  border: 1px solid #8C96A0;
-  box-shadow: 10px 10px 10px #8C96A0;
+  border: 1px solid #8c96a0;
+  box-shadow: 10px 10px 10px #8c96a0;
   border-radius: 10px;
   margin: auto;
   height: auto;
@@ -104,12 +104,11 @@ export const TableComp = styled.table`
 export const TableBody = styled.tbody``;
 
 export const TableCol = styled.th`
-  ${props => props.arrow ? "display: inline-flex;"  : ""};
-  ${props => props.arrow ? "position: absolute"  : "position: relative"};
-  ${props => props.arrow ? "left: 10px;"  : ""};
-  ${props => props.headerLeft ? "border-top-left-radius: 10px;"  : ""};
-  ${props => props.headerRight ? "border-top-right-radius: 10px;"  : ""};
-  ;
+  ${props => (props.arrow ? "display: inline-flex;" : "")};
+  ${props => (props.arrow ? "position: absolute" : "position: relative")};
+  ${props => (props.arrow ? "left: 10px;" : "")};
+  ${props => (props.headerLeft ? "border-top-left-radius: 10px;" : "")};
+  ${props => (props.headerRight ? "border-top-right-radius: 10px;" : "")};
 `;
 
 export const TableRow = styled.tr`
@@ -125,16 +124,18 @@ export const TableRow = styled.tr`
 `;
 
 export const Text = styled.span`
-  color: ${props => props.color ? props.color : '#2c2c2f'};
+  color: ${props => (props.color ? props.color : "#2c2c2f")};
   ${props => (props.fontSize ? `font-size: ${props.fontSize}` : "")};
   ${props => (props.italic ? `font-style: italic` : "")};
   ${props =>
-    props.fontWeight ? `font-weight: ${props.fontWeight}` : "font-weight: normal"};
+    props.fontWeight
+      ? `font-weight: ${props.fontWeight}`
+      : "font-weight: normal"};
   ${props => (props.padding ? `padding: ${props.padding}` : "padding: 0")};
   display: inline-block;
   vertical-align: middle;
   margin: auto;
-  ${props => props.justify ? "text-align: justify": ''}
+  ${props => (props.justify ? "text-align: justify" : "")}
   ${props => (props.width ? `width: ${props.width}` : "")};
   ${props => (props.height ? `height: ${props.height}` : "")};
   &:hover {
@@ -175,7 +176,7 @@ export const MapContainer = styled.div`
 
 export const TrainingTextContainer = styled.div`
   width: 30rem;
-  textAlign: center;
+  textalign: center;
   margin: 5rem auto 0;
 `;
 
@@ -191,11 +192,10 @@ export const TrainingText = styled.p`
   margin: 1rem 0;
   font-size: 20px;
   text-align: justify;
-  ${props => props.bold ? 'font-weight: bold' : ''}
+  ${props => (props.bold ? "font-weight: bold" : "")}
 `;
 
-export const IconContainer = styled.div`
-`;
+export const IconContainer = styled.div``;
 
 export const SocialMediaComp = styled.div`
   display: inline-flex;
@@ -214,7 +214,7 @@ export const PartnerComp = SeasonComp.extend`
 export const FooterComp = TrainingComp.extend`
   height: 7rem;
   position: relative;
-  background-color: #3b3b3c
+  background-color: #3b3b3c;
 `;
 
 export const Partner = styled.div`
@@ -271,15 +271,13 @@ export const TeamLogo = styled.img`
 `;
 
 export const TeamName = styled.h3`
-  color: #8C96A0;
+  color: #8c96a0;
 `;
 
-export const Matchup = styled.div`
-
-`;
+export const Matchup = styled.div``;
 
 export const MatchupText = styled.p`
-  color: #8C96A0;
+  color: #8c96a0;
   font-size: 20px;
 `;
 
@@ -297,8 +295,9 @@ export const LeagueLogo = styled.img`
 `;
 
 export const Divider = styled.div`
-  width: ${props => props.wide ? '60%' : '8rem'};
-  border: ${props => props.thin ? '.5px': '1.5px'} solid ${props => props.dark ? '#2c2c2f' : '#e0e0e0'};
+  width: ${props => (props.wide ? "60%" : "8rem")};
+  border: ${props => (props.thin ? ".5px" : "1.5px")} solid
+    ${props => (props.dark ? "#2c2c2f" : "#e0e0e0")};
   margin: 2rem auto;
 `;
 
@@ -332,7 +331,9 @@ export const Button = styled.button`
   cursor: pointer;
   font-size: 16px;
   box-sizing: border-box;
-  background-color: {props => props.light ? '#e0e0e0' : 'transparent'};
+  background-color: {
+    props=> props.light ? '#e0e0e0' : "transparent";
+  }
   color: rgb(53, 53, 53);
   border-radius: 20px;
   padding: 10px 24px;
@@ -363,7 +364,7 @@ export const TimeLine = styled.div`
   max-width: 1200px;
   margin: 0 auto;
   &:after {
-    content: '';
+    content: "";
     position: absolute;
     width: 6px;
     background-color: #e0e0e0;
@@ -382,7 +383,7 @@ export const TimeItemLeft = styled.div`
   width: 50%;
   left: 0;
   &:after {
-    content: '';
+    content: "";
     position: absolute;
     width: 25px;
     height: 25px;
@@ -407,7 +408,6 @@ export const TimeItemLeft = styled.div`
   }
 `;
 
-
 export const TimeItemRight = styled.div`
   box-sizing: border-box;
   padding: 10px 40px;
@@ -416,7 +416,7 @@ export const TimeItemRight = styled.div`
   width: 50%;
   left: 50%;
   &:after {
-    content: '';
+    content: "";
     position: absolute;
     width: 25px;
     height: 25px;
@@ -448,7 +448,7 @@ export const TimeItemContent = styled.div`
   background-color: #e0e0e0;
   position: relative;
   border-radius: 12px;
-  box-shadow: 5px 5px 8px #8C96A0;
+  box-shadow: 5px 5px 8px #8c96a0;
 `;
 
 export const HistoryComp = styled.div`
@@ -475,10 +475,10 @@ export const SocialText = styled.p`
   margin-right: 1.5rem;
   font-size: 20px;
   text-align: justify;
-  ${props => props.bold ? 'font-weight: bold' : ''}
+  ${props => (props.bold ? "font-weight: bold" : "")}
   vertical-align: middle;
   line-height: 40px;
-`
+`;
 
 export const LinksComp = styled.div`
   display: inline-flex;
@@ -506,7 +506,7 @@ export const InfosText = styled.span`
   }
 `;
 
-export const Download = styled.a `
+export const Download = styled.a`
   text-decoration: none;
 `;
 

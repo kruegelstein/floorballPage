@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 
 // Styled-components
-import {SocialMediaComp, IconContainer, SocialText} from '../Main.js'
+import { SocialMediaComp, IconContainer, SocialText } from "../Main.js";
 
 class SocialMedia extends Component {
   render() {
     return (
       <SocialMediaComp>
-        <SocialText bold > Folge uns auf: </SocialText>
+        <SocialText bold> Folge uns auf: </SocialText>
         <IconContainer>
           <a
             href="https://www.instagram.com/scs_berlin_floorball"
