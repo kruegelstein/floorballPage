@@ -1,4 +1,5 @@
 import React from "react";
+import YouTube from 'react-youtube';
 
 import Videoplayback from "../../../assets/Videoplayback.mp4";
 
@@ -10,126 +11,24 @@ import {
   Text,
   PartnerTitle,
   Video,
-  BlockContainer,
-  Button
+  BlockContainer
 } from "../Main.js";
 
 class MediaSection extends React.Component {
-  state = {
-    video_1: {
-      node: null,
-      isPlaying: false
-    },
-    video_2: {
-      node: null,
-      isPlaying: false
-    },
-    video_3: {
-      node: null,
-      isPlaying: false
-    },
-    video_4: {
-      node: null,
-      isPlaying: false
-    }
-  };
-
-  componentDidMount() {
-    this.setState({
-      ...this.state,
-      video_1: {
-        ...this.state.video_1,
-        node: document.getElementById("video_1")
-      },
-      video_2: {
-        ...this.state.video_2,
-        node: document.getElementById("video_2")
-      },
-      video_3: {
-        ...this.state.video_3,
-        node: document.getElementById("video_3")
-      },
-      video_4: {
-        ...this.state.video_4,
-        node: document.getElementById("video_4")
-      }
-    });
-  }
-
-  playVideo = id => {
-    // Pause other video if playing
-    this.state["video_1"].node.pause();
-    this.state["video_2"].node.pause();
-    this.state["video_3"].node.pause();
-    this.state["video_4"].node.pause();
-    this.setState(
-      {
-        ...this.state,
-        video_1: {
-          node: this.state["video_1"].node,
-          isPlaying: false
-        },
-        video_2: {
-          node: this.state["video_2"].node,
-          isPlaying: false
-        },
-        video_3: {
-          node: this.state["video_3"].node,
-          isPlaying: false
-        },
-        video_4: {
-          node: this.state["video_4"].node,
-          isPlaying: false
-        }
-      },
-      () => {
-        this.state[id].node.play();
-        this.setState({
-          ...this.state,
-          [id]: {
-            ...this.state[id],
-            isPlaying: true
-          }
-        });
-      }
-    );
-  };
-
-  pauseVideo = id => {
-    this.state[id].node.pause();
-    this.setState({
-      ...this.state,
-      [id]: {
-        ...this.state[id],
-        isPlaying: false
-      }
-    });
-  };
-
-  resetVideo = id => {
-    const video = this.state[id].node;
-    video.pause();
-    video.currentTime = 0;
-    this.setState({
-      ...this.state,
-      [id]: {
-        ...this.state[id],
-        isPlaying: false
-      }
-    });
-  };
-
-  toggleVideo = id => {
-    const isPlaying = this.state[id].isPlaying;
-    isPlaying ? this.pauseVideo(id) : this.playVideo(id);
-  };
   render() {
+    const opts = {
+      height: '390',
+      width: '640',
+      playerVars: {
+        autoplay: 0
+      }
+    };
     return (
       <>
         <MediaComp autoPlay muted loop>
           <source src={Videoplayback} type="video/mp4" />
         </MediaComp>
-        {false && (
+
           <Videos>
             <PartnerTitle>
               Aktuelle Videos der Floorball Abteilung des SC Siemensstadt
@@ -137,63 +36,71 @@ class MediaSection extends React.Component {
             <Text fontSize={"18px"} fontWeight={"bold"}>
               -- Playoffs Regionalliga Kleinfeld --{" "}
             </Text>
+            <Divider dark thin />
             <BlockContainer>
-              <Video id="video_1" onEnded={() => this.resetVideo("video_1")}>
-                <source src={Videoplayback} type="video/mp4" />
-              </Video>
-              <BlockContainer margin={"0 0 1rem 0"}>
-                <Text fontSize={"16px"} fontWeight={"bold"}>
-                  Halbfinale: SCS v. UHC
-                </Text>
-              </BlockContainer>
-              <Button onClick={() => this.toggleVideo("video_1")}>
-                {this.state["video_1"].isPlaying ? "Pause" : "Play"}
-              </Button>
+            <BlockContainer margin={"0 0 1rem 0"}>
+            <Text fontSize={"16px"} fontWeight={"bold"}>
+            Relegation: Tegel v. BAT
+            </Text>
+            </BlockContainer>
+            <YouTube
+        videoId="V1wFiMaTbRA"
+        opts={opts}
+      />
             </BlockContainer>
             <Divider dark thin wide />
             <BlockContainer>
-              <Video id="video_2">
-                <source src={Videoplayback} type="video/mp4" />
-              </Video>
-              <BlockContainer margin={"0 0 1rem 0"}>
-                <Text fontSize={"16px"} fontWeight={"bold"}>
-                  Halbfinale: Turtles v. Eisbären Juniors
-                </Text>
-              </BlockContainer>
-              <Button onClick={() => this.toggleVideo("video_2")}>
-                {this.state["video_2"].isPlaying ? "Pause" : "Play"}
-              </Button>
+            <BlockContainer margin={"0 0 1rem 0"}>
+            <Text fontSize={"16px"} fontWeight={"bold"}>
+            Halbfinale: SCS v. UHC
+            </Text>
+            </BlockContainer>
+            <YouTube
+        videoId="KZZ__r5LlgE"
+        opts={opts}
+      />
             </BlockContainer>
             <Divider dark thin wide />
             <BlockContainer>
-              <Video id="video_3">
-                <source src={Videoplayback} type="video/mp4" />
-              </Video>
-              <BlockContainer margin={"0 0 1rem 0"}>
-                <Text fontSize={"16px"} fontWeight={"bold"}>
-                  Spiel um Platz 3: UHC v. Eisbären Juniors
-                </Text>
-              </BlockContainer>
-              <Button onClick={() => this.toggleVideo("video_3")}>
-                {this.state["video_3"].isPlaying ? "Pause" : "Play"}
-              </Button>
+            <BlockContainer margin={"0 0 1rem 0"}>
+            <Text fontSize={"16px"} fontWeight={"bold"}>
+            Halbfinale: Turtles v. Eisbären Juniors
+            </Text>
+            </BlockContainer>
+            <YouTube
+        videoId="EZq_6DWtXwY"
+        opts={opts}
+      />
             </BlockContainer>
             <Divider dark thin wide />
             <BlockContainer margin={"0 0 2rem 0"}>
-              <Video id="video_4">
-                <source src={Videoplayback} type="video/mp4" />
-              </Video>
-              <BlockContainer margin={"0 0 1rem 0"}>
-                <Text fontSize={"16px"} fontWeight={"bold"}>
-                  Finale: SCS v. Turtles
-                </Text>
-              </BlockContainer>
-              <Button onClick={() => this.toggleVideo("video_4")}>
-                {this.state["video_4"].isPlaying ? "Pause" : "Play"}
-              </Button>
+            <BlockContainer margin={"0 0 1rem 0"}>
+            <Text fontSize={"16px"} fontWeight={"bold"}>
+            Finale: SCS v. Turtles
+            </Text>
+            </BlockContainer>
+            <YouTube
+        videoId="1ZljLv5VtxA"
+        opts={opts}
+      />
+            </BlockContainer>
+            <Text fontSize={"18px"} fontWeight={"bold"}>
+              -- Qualifikation Deutsche Meisterschaft Kleinfeld --{" "}
+            </Text>
+            <Divider dark thin />
+            <BlockContainer margin={"0 0 2rem 0"}>
+            <BlockContainer margin={"0 0 1rem 0"}>
+            <Text fontSize={"16px"} fontWeight={"bold"}>
+            Qualifikation: SCS v. Schkeuditz
+            </Text>
+            </BlockContainer>
+            <YouTube
+        videoId="fVDnV88Ol7w"
+        opts={opts}
+      />
             </BlockContainer>
           </Videos>
-        )}
+
       </>
     );
   }
