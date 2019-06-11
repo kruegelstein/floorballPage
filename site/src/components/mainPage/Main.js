@@ -6,9 +6,6 @@ import MapMarker from "../../assets/MapMarker.png";
 
 export const MainComp = styled.div`
   color: #2c2c2f;
-  @media only screen and (max-width: 600px) {
-    width: ${props => props.mobileWidth};
-  }
 `;
 
 export const HeaderComp = styled.div`
@@ -66,6 +63,7 @@ export const SeasonComp = styled.div`
   height: auto;
   position: relative;
   margin-bottom: 2rem;
+  text-align: center;
 `;
 
 export const InlineContainer = styled.div`
@@ -126,6 +124,7 @@ export const Text = styled.span`
   }
 `;
 export const BlockContainer = styled.div`
+text-align: center;
   ${props => (props.margin ? `margin: ${props.margin}` : "")};
   ${props => (props.width ? `width: ${props.width}` : "")};
 `;
@@ -175,6 +174,7 @@ export const TrainingTitle = styled.h2`
   color: #2c2c2f;
   font-weight: bold;
   margin-bottom: 2rem;
+  text-align: center;
 `;
 
 export const PlayerTitle = styled.h2`
@@ -182,6 +182,7 @@ export const PlayerTitle = styled.h2`
   font-weight: bold;
   margin-bottom: 2rem;
   padding-top: 2rem;
+  text-align: center;
 `;
 
 export const TrainingText = styled.p`
@@ -214,15 +215,13 @@ export const SocialMediaComp = styled.div`
 export const PartnerComp = SeasonComp.extend`
   display: inline-flex;
   height: auto;
+  text-align: center;
 `;
 
 export const FooterComp = TrainingComp.extend`
   height: 7rem;
   position: relative;
   background-color: #3b3b3c;
-  @media only screen and (max-width: 600px) {
-    height: 10rem;
-  }
 `;
 
 export const Partner = styled.div`
@@ -254,6 +253,7 @@ export const PartnerName = styled.a`
 export const PartnerTitle = styled.h2`
   font-weight: bold;
   margin-bottom: 3rem;
+  text-align: center;
   margin-top: ${props => (props.withTopMargin ? "4rem" : "")};
 `;
 
@@ -318,6 +318,7 @@ export const FlexContainer = styled.div`
 export const Videos = styled.div`
   height: auto;
   width: 100%;
+  text-align: center;
 `;
 
 export const Video = styled.video`
@@ -458,6 +459,7 @@ export const HistoryComp = styled.div`
   width: 100%;
   padding-bottom: 2rem;
   display: block;
+  text-align: center;
 `;
 
 export const HistoryTitle = styled.h2`
@@ -490,9 +492,6 @@ export const InfosComp = styled.div`
   right: 50%;
   -ms-transform: translate(50%, -50%);
   transform: translate(50%, -50%);
-  @media only screen and (max-width: 600px) {
-    right: 40%;
-  }
 `;
 
 export const InfosText = styled.span`
@@ -502,9 +501,6 @@ export const InfosText = styled.span`
   color: #e8e8e8;
   &:hover {
     text-decoration: underline;
-  }
-  @media only screen and (max-width: 600px) {
-    font-size: 26px;
   }
 `;
 

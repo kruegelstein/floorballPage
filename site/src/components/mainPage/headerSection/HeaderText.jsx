@@ -17,7 +17,7 @@ class HeaderText extends Component {
         </HeaderTitle>
         <Divider />
         <HeaderTextSection>
-          Der SCS Berlin ist ein Floorball - Team im Berliner Verein SC
+          Herzlich Willkommen auf der offiziellen Fan Seite der Floorballabteilung des SCS Berlin. Der SCS Berlin ist ein Floorball - Team im Berliner Verein SC
           Siemensstadt. Unsere Heimspiele tragen wir im Sport Centrum
           Siemensstadt aus. In der Saison 2017/2018 gelang unserer ersten
           Mannschaft der Aufstieg in die zweite Floorball - Bundesliga, mit dem
