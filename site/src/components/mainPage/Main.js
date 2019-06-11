@@ -137,6 +137,12 @@ export const TrainingComp = styled.div`
   display: inline-flex;
 `;
 
+export const PlayerComp = styled.div`
+  background-color: #3d4d64;
+  height: auto;
+  width: 100%;
+`;
+
 export const Marker = styled.div`
   width: 2rem;
   height: 3rem;
