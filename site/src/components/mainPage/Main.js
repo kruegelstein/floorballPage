@@ -131,7 +131,6 @@ export const BlockContainer = styled.div`
 `;
 
 export const TrainingComp = styled.div`
-  background-color: #3d4d64;
   height: auto;
   width: 100%;
   display: inline-flex;
@@ -166,14 +165,36 @@ export const TrainingTextContainer = styled.div`
   margin: 5rem auto 0;
 `;
 
+export const PlayerTextContainer = styled.div`
+  width: 60%;
+  textalign: center;
+  margin: 5rem auto 0;
+`;
+
 export const TrainingTitle = styled.h2`
+  color: #2c2c2f;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 2rem;
+`;
+
+export const PlayerTitle = styled.h2`
   color: #e8e8e8;
   font-weight: bold;
   text-decoration: underline;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
+  padding-top: 2rem;
 `;
 
 export const TrainingText = styled.p`
+  color: #2c2c2f;
+  margin: 1rem 0;
+  font-size: 20px;
+  text-align: justify;
+  ${props => (props.bold ? "font-weight: bold" : "")}
+`;
+
+export const PlayerText = styled.p`
   color: #e8e8e8;
   margin: 1rem 0;
   font-size: 20px;
@@ -506,4 +527,8 @@ export const ImprintContainer = styled.div`
   background-color: #3d4d64;
   color: #e8e8e8;
   padding: 2rem;
+`;
+
+export const NewPlayers = styled.img`
+  width: 13rem;
 `;

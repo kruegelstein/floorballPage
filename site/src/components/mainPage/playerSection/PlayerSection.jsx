@@ -1,32 +1,35 @@
 import React, { Component } from "react";
 
+import Transfers from "../../../assets/Transfers.png"
+
 // Styled-Components
 import {
   PlayerComp,
-  TrainingTitle,
-  TrainingText,
+  PlayerTitle,
+  PlayerText,
   BlockContainer,
-  TrainingTextContainer,
-  Divider
+  PlayerTextContainer,
+  Divider,
+  NewPlayers
 } from "../Main.js";
 
 class PlayerSection extends Component {
   render() {
     return (
       <PlayerComp>
-      <TrainingTextContainer>
+      <PlayerTextContainer>
       <BlockContainer>
-      <TrainingTitle>Spieler gesucht – werde ein Teil des Teams</TrainingTitle>
-      <TrainingText>Unsere erste Mannschaft sucht nach Unterstützung für die nächste Saison. Du spielst schon einige Jahre Floorball, bist motiviert und hast Lust auf Floorball in der zweiten Bundesliga? Melde dich einfach zum Probetraining an und zeig uns, was du drauf hast.</TrainingText>
-      <TrainingText >Anfänger? Hobbyspieler? Nachwuchstalent? Auch für unseren Spielbetrieb im Kleinfeld, in der Großfeld-Regionalliga und für unsere Jugendmannschaft suchen wir immer wieder neue Spieler. Sprich uns einfach an – wir freuen uns über jeden, der vorbeikommt!</TrainingText>
-      <TrainingText >Mail: info@scs-floorball.de</TrainingText>
+      <PlayerTitle>Spieler gesucht – werde ein Teil des Teams</PlayerTitle>
+      <PlayerText>Unsere erste Mannschaft sucht nach Unterstützung für die nächste Saison. Du spielst schon einige Jahre Floorball, bist motiviert und hast Lust auf Floorball in der zweiten Bundesliga? Melde dich einfach zum Probetraining an und zeig uns, was du drauf hast.</PlayerText>
+      <PlayerText >Anfänger? Hobbyspieler? Nachwuchstalent? Auch für unseren Spielbetrieb im Kleinfeld, in der Großfeld-Regionalliga und für unsere Jugendmannschaft suchen wir immer wieder neue Spieler. Sprich uns einfach an – wir freuen uns über jeden, der vorbeikommt!</PlayerText>
+      <PlayerText>Mail: info@scs-floorball.de</PlayerText>
       </BlockContainer>
       <Divider />
       <BlockContainer>
-      <TrainingTitle>Neue Spieler zur Saison 19/20</TrainingTitle>
-      <NewPlayers src={newPlayers} />
+      <PlayerTitle>Neue Spieler zur Saison 19/20</PlayerTitle>
+      <NewPlayers src={Transfers} />
       </BlockContainer>
-      </TrainingTextContainer>
+      </PlayerTextContainer>
       </PlayerComp>
     );
   }
