@@ -174,14 +174,12 @@ export const PlayerTextContainer = styled.div`
 export const TrainingTitle = styled.h2`
   color: #2c2c2f;
   font-weight: bold;
-  text-decoration: underline;
   margin-bottom: 2rem;
 `;
 
 export const PlayerTitle = styled.h2`
   color: #e8e8e8;
   font-weight: bold;
-  text-decoration: underline;
   margin-bottom: 2rem;
   padding-top: 2rem;
 `;
@@ -255,7 +253,6 @@ export const PartnerName = styled.a`
 
 export const PartnerTitle = styled.h2`
   font-weight: bold;
-  text-decoration: underline;
   margin-bottom: 3rem;
   margin-top: ${props => (props.withTopMargin ? "4rem" : "")};
 `;
@@ -465,7 +462,6 @@ export const HistoryComp = styled.div`
 
 export const HistoryTitle = styled.h2`
   font-weight: bold;
-  text-decoration: underline;
   padding-top: 2rem;
   color: #e8e8e8;
 `;
