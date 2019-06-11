@@ -10,7 +10,6 @@ import {
   Divider,
   Text,
   PartnerTitle,
-  Video,
   BlockContainer
 } from "../Main.js";
 
