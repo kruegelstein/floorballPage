@@ -49,6 +49,12 @@ class TrainingSection extends Component {
               Ort: Jungfernheideweg 32-48, 13629 Berlin
             </TrainingText>
             <Divider />
+            <TrainingTitle>Training - Kinder</TrainingTitle>
+            <TrainingText bold>Donnerstags: 18:00</TrainingText>
+            <TrainingText bold>
+              Ort: Jungfernheideweg 32-48, 13629 Berlin
+            </TrainingText>
+            <Divider />
             <TrainingText>
               Wir freuen uns über jeden, der die Bundesliga Mannschaft
               verstärken möchte. Wenn du Interesse an einem Probetraining hast,
