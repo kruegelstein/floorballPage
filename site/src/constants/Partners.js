@@ -1,7 +1,7 @@
 import Prowin from "../assets/Prowin.PNG";
 import Planungsbüro from "../assets/Planungsbüro.PNG";
-import FloorballDeutschland from "../assets/FloorballDeutschland.PNG";
-import SfpHospitality from "../assets/SfpHospitality.PNG";
+import FloorballDeutschland from "../assets/FloorballDeutschland.png";
+import SfpHospitality from "../assets/SfpHospitality.png";
 
 export const Partners = [
   {
