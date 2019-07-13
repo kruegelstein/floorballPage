@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 // Team Logos
 import SCS from '../../../assets/Logo.png'
-import Leipzig from '../../../assets/Leipzig.png'
+import Ingolstadt from '../../../assets/Ingolstadt.png'
 import Logo2BL from '../../../assets/Logo2BL.png'
 
 // Styled-Components
@@ -14,18 +14,18 @@ class NextGame extends Component {
       <NextGameComp>
         <LeagueLogo src={Logo2BL}/>
         <Team>
-          <TeamLogo src={SCS}>
+          <TeamLogo src={Ingolstadt}>
           </TeamLogo>
           <TeamName>
-            SCS Berlin
+            Floorball Ingolstadt/Nordheim
           </TeamName>
         </Team>
         <Matchup>
           <MatchupText>
-            SC Siemensstadt Boulstr. 14, 13629 Berlin
+            Spielstätte steht noch aus
           </MatchupText>
           <MatchupText>
-            Bully um 14:00
+            Bullyzeit steht noch aus
           </MatchupText>
           <Placeholder>
             - : -
@@ -35,10 +35,10 @@ class NextGame extends Component {
           </MatchupText>
         </Matchup>
         <Team>
-          <TeamLogo src={Leipzig}>
+          <TeamLogo src={SCS}>
           </TeamLogo>
           <TeamName>
-            SC DHfK Leipzig
+            SCS Berlin
           </TeamName>
         </Team>
       </NextGameComp>

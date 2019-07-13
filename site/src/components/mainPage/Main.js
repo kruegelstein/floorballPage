@@ -261,7 +261,6 @@ export const NextGameComp = styled.div`
   height: auto;
   display: inline-flex;
   margin: 2rem auto;
-  border-bottom: 1px solid grey;
 `;
 
 export const Team = styled.div`
@@ -522,5 +521,5 @@ export const ImprintContainer = styled.div`
 `;
 
 export const NewPlayers = styled.img`
-  width: 13rem;
+  width: 30rem;
 `;

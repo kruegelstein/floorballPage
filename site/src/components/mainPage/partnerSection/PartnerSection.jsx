@@ -19,7 +19,7 @@ class PartnerSection extends Component {
     return (
       <>
         <PartnerTitle>
-          Partner und Unterschützer der Floorball Abteilung des SCS Berlin
+          Partner und Unterstützer der Floorball Abteilung des SCS Berlin
         </PartnerTitle>
         <BlockContainer margin={"0 auto 2rem auto"} width={"50%"}>
           <Text fontSize={"18px"} fontWeight={"bold"}>
