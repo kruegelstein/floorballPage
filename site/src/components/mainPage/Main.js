@@ -56,6 +56,7 @@ export const HeaderTextSection = styled.p`
   font-size: 22px;
   padding-bottom: 2rem;
   text-align: justify;
+  margin: 0;
 `;
 
 export const SeasonComp = styled.div`
@@ -522,4 +523,31 @@ export const ImprintContainer = styled.div`
 
 export const NewPlayers = styled.img`
   width: 30rem;
+`;
+
+export const NewsComp = styled.div`
+  background-color: #3d4d64;
+  height: auto;
+  width: 100%;
+  text-align: center;
+`;
+
+export const Card = styled.div`
+  height: 20rem;
+  width: 16rem;
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  margin: auto;
+`;
+
+export const NewsTitle = styled.h2`
+  font-weight: bold;
+  color: #e8e8e8;
+  padding-top: 2rem;
+  margin: 0;
+`;
+
+export const CardsComp = styled.div`
+  margin-top: 2rem;
+  padding-bottom: 2rem;
 `;
