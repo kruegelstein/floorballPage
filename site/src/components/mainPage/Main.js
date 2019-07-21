@@ -538,6 +538,11 @@ export const Card = styled.div`
   border: 1px solid #e8e8e8;
   border-radius: 5px;
   margin: auto;
+  background-image: url('${props => props.background}');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 `;
 
 export const NewsTitle = styled.h2`
@@ -550,4 +555,9 @@ export const NewsTitle = styled.h2`
 export const CardsComp = styled.div`
   margin-top: 2rem;
   padding-bottom: 2rem;
+`;
+
+export const CardTitle = styled.div`
+  width: 100%;
+  height: 100%;
 `;

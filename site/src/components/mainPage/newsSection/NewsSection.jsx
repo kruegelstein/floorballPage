@@ -5,7 +5,8 @@ import {
   NewsComp,
   Card,
   NewsTitle,
-  CardsComp
+  CardsComp,
+  CardTitle
 } from "../Main.js";
 
 import { news } from "../../../constants/News.js";
@@ -19,8 +20,10 @@ class NewsSection extends Component {
       </NewsTitle>
       <CardsComp>
       {news.map((singleNews, index) =>
-        <Card key={index}>
-
+        <Card key={index} background={singleNews.image}>
+          <CardTitle >
+            {singleNews.title}
+          </CardTitle>
         </Card>
       )}
       </CardsComp>
