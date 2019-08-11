@@ -1,6 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 import { TextField, Button } from "@material-ui/core";
+import axios from "axios";
+import { login } from "../../network/api";
+
+const BACKEND_URL = " http://localhost:8080";
 
 const LoginComp = styled.div`
   color: #2c2c2f;
@@ -32,7 +36,14 @@ class Login extends React.Component {
     password: ""
   };
   onSubmit = () => {
-    console.log("SUBMIT");
+    axios
+      .post(`${BACKEND_URL}/login`, {
+        username: this.state.username,
+        password: this.state.password
+      })
+      .then(res => {
+        console.log("****", res);
+      });
   };
 
   handleChangeUsername = event => {
