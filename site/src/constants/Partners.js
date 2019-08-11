@@ -1,19 +1,8 @@
-import Prowin from "../assets/Prowin.PNG";
 import Planungsbüro from "../assets/Planungsbüro.PNG";
-import FloorballDeutschland from "../assets/FloorballDeutschland.PNG";
-import SfpHospitality from "../assets/SfpHospitality.PNG";
+import FloorballDeutschland from "../assets/FloorballDeutschland.png";
+import SfpHospitality from "../assets/SfpHospitality.png";
 
 export const Partners = [
-  {
-    title: "Prowin Penteker",
-    text:
-      "proWIN produziert nachhaltige und umweltverträgliche Reinigungs- und Wellnessprodukte. Die proWIN Vertriebspartnerin Beate Penteker mit Sitz in Berlin hat uns in der Saison 2018/2019 unterstützt.",
-    link: "www.prowin.net",
-    href: "https://www.prowin.net/vertrieb/b.penteker",
-    src: Prowin,
-    alt: "Prowin Penteker unterstützt die Floorball Abteilung des SCS Berlin",
-    wide: true
-  },
   {
     title: "Planungsbüro KÖPCONS GmbH",
     text:
@@ -34,7 +23,7 @@ export const Partners = [
     alt: "SFP Hospitality unterstützt die Floorball Abteilung des SCS Berlin"
   },
   {
-    title: "Floorball deutschland",
+    title: "Floorball Deutschland",
     text:
       "Auch bei Floorball Deutschland, dem Floorball-Verband Deutschland, möchten wir uns für die Unterstützung bedanken.",
     link: "www.floorball.de",
