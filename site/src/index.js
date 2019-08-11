@@ -4,12 +4,14 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./index.css";
 import App from "./App.jsx";
 import Impressum from "./components/impressum/Impressum.jsx";
+import Login from "./components/login/Login.jsx";
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
   <Router>
     <Route path="/" exact component={App} />
     <Route path="/imprint" component={Impressum} />
+    <Route path="/login" component={Login} />
   </Router>,
   document.getElementById("roote")
 );
