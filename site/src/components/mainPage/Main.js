@@ -124,7 +124,7 @@ export const Text = styled.span`
   }
 `;
 export const BlockContainer = styled.div`
-text-align: center;
+  text-align: center;
   ${props => (props.margin ? `margin: ${props.margin}` : "")};
   ${props => (props.width ? `width: ${props.width}` : "")};
 `;
@@ -522,4 +522,12 @@ export const ImprintContainer = styled.div`
 
 export const NewPlayers = styled.img`
   width: 30rem;
+`;
+
+export const Account = styled.i`
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  color: white;
+  cursor: pointer;
 `;

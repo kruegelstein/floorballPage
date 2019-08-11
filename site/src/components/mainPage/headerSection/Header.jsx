@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 // Styled-components
-import { HeaderContainer, Logo } from "../Main.js";
+import { HeaderContainer, Logo, Account } from "../Main.js";
 
 class HeaderSection extends Component {
   render() {
@@ -14,6 +14,7 @@ class HeaderSection extends Component {
         >
           <Logo />
         </a>
+        <Account className="fas fa-user fa-2x" />
       </HeaderContainer>
     );
   }
