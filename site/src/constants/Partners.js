@@ -34,7 +34,7 @@ export const Partners = [
     alt: "SFP Hospitality unterstützt die Floorball Abteilung des SCS Berlin"
   },
   {
-    title: "Floorball deutschland",
+    title: "Floorball Deutschland",
     text:
       "Auch bei Floorball Deutschland, dem Floorball-Verband Deutschland, möchten wir uns für die Unterstützung bedanken.",
     link: "www.floorball.de",

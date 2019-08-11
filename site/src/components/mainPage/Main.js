@@ -125,7 +125,7 @@ export const Text = styled.span`
   }
 `;
 export const BlockContainer = styled.div`
-text-align: center;
+  text-align: center;
   ${props => (props.margin ? `margin: ${props.margin}` : "")};
   ${props => (props.width ? `width: ${props.width}` : "")};
 `;

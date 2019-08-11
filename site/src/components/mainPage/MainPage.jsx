@@ -20,7 +20,7 @@ class MainPage extends Component {
     return (
       <MainComp mobileWidth={`${screenWidth * ratio}px`}>
         <HeaderSection />
-        <NewsSection/>
+        <NewsSection />
         <SeasonSection />
         <PlayerSection />
         <TrainingSection />
