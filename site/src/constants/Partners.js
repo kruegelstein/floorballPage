@@ -1,8 +1,18 @@
 import Planungsbüro from "../assets/Planungsbüro.PNG";
 import FloorballDeutschland from "../assets/FloorballDeutschland.png";
 import SfpHospitality from "../assets/SfpHospitality.png";
+import Floorballshop from "../assets/FloorballShop1.jpg";
 
 export const Partners = [
+  {
+    title: "floorballshop.com",
+    text:
+      "floorballshop.com gibt seit 2006 das Beste für Tausende von zufriedenen Kunden und ist heute der führende Online-Shop in Deutschland und Österreich für Floorball bzw. Unihockey Schläger und Zubehör. Seit 2019 ist floorballshop.com offizeller Ausrüster der Floorball Abteilung des SCS Berlin.",
+    link: "www.floorballshop.com",
+    href: "https://www.floorballshop.com",
+    src: Floorballshop,
+    alt: "Floorballshop unterstützt die Floorball Abteilung des SCS Berlin"
+  },
   {
     title: "Planungsbüro KÖPCONS GmbH",
     text:
@@ -30,7 +40,6 @@ export const Partners = [
     href: "https://www.floorball.de/",
     src: FloorballDeutschland,
     alt:
-      "Floorball Deutschland unterstützt die Floorball Abteilung des SCS Berlin",
-    wide: true
+      "Floorball Deutschland unterstützt die Floorball Abteilung des SCS Berlin"
   }
 ];

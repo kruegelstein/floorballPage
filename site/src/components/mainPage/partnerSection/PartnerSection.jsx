@@ -46,7 +46,7 @@ class PartnerSection extends Component {
                 </Text>
               </BlockContainer>
               <BlockContainer margin={"0 auto 2rem auto"} width={"50%"}>
-                <Text height={"10rem"} fontSize={"16px"} justify>
+                <Text height={"17rem"} fontSize={"16px"} justify>
                   {partner.text}
                 </Text>
               </BlockContainer>
