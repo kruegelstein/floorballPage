@@ -50,7 +50,7 @@ class TrainingSection extends Component {
             </TrainingText>
             <Divider dark thin />
             <TrainingTitle>Training - Kinder</TrainingTitle>
-            <TrainingText bold>Donnerstags: 18:00</TrainingText>
+            <TrainingText bold>Donnerstags: 17:00</TrainingText>
             <TrainingText bold>
               Ort: Jungfernheideweg 32-48, 13629 Berlin
             </TrainingText>
