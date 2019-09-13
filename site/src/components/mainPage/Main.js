@@ -56,6 +56,7 @@ export const HeaderTextSection = styled.p`
   font-size: 22px;
   padding-bottom: 2rem;
   text-align: justify;
+  margin: 0;
 `;
 
 export const SeasonComp = styled.div`
@@ -124,7 +125,7 @@ export const Text = styled.span`
   }
 `;
 export const BlockContainer = styled.div`
-text-align: center;
+  text-align: center;
   ${props => (props.margin ? `margin: ${props.margin}` : "")};
   ${props => (props.width ? `width: ${props.width}` : "")};
 `;
@@ -168,6 +169,7 @@ export const PlayerTextContainer = styled.div`
   width: 60%;
   textalign: center;
   margin: 5rem auto 0;
+  padding-bottom: 1rem;
 `;
 
 export const TrainingTitle = styled.h2`
@@ -522,4 +524,101 @@ export const ImprintContainer = styled.div`
 
 export const NewPlayers = styled.img`
   width: 30rem;
+`;
+
+export const NewsComp = styled.div`
+  background-color: #3d4d64;
+  height: auto;
+  width: 100%;
+  text-align: center;
+`;
+
+export const Card = styled.div`
+  cursor: pointer;
+  display: inline-block;
+  height: 28rem;
+  width: 22rem;
+  margin: 0 2rem;
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  background-image: url('${props => props.background}');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+  overflow-y: scroll;
+  @media only screen and (max-width: 480px) {
+    height: 49rem;
+    width: 45rem;
+    display: block;
+    margin: 2rem auto;
+  }
+`;
+
+export const NewsTitle = styled.h2`
+  font-weight: bold;
+  color: #e8e8e8;
+  padding-top: 2rem;
+  margin: 0;
+`;
+
+export const CardsComp = styled.div`
+  display: flex;
+  justify-content: center;
+  width: calc(100vw - 4rem);
+  margin: 2rem auto 0;
+  padding-bottom: 2rem;
+
+  @media only screen and (max-width: 480px) {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
+`;
+
+export const CardTitle = styled.span`
+  width: 100%;
+  font-size: 24px;
+  font-weight: bold;
+  color: #e8e8e8;
+  display: table-cell;
+  vertical-align: middle;
+  @media only screen and (max-width: 480px) {
+    font-size: 50px;
+  }
+`;
+
+export const CardTitleComp = styled.div`
+  opacity: 0.9;
+  background-color: #484c52;
+  height: 25%;
+  border-radius: 5px;
+  display: table;
+  margin: 4px;
+  @media only screen and (max-width: 480px) {
+    width: 98%;
+  }
+`;
+
+export const CardText = styled.span`
+  width: 100%;
+  font-size: 18px;
+  color: #e8e8e8;
+  display: table-cell;
+  vertical-align: middle;
+  line-height: 24px;
+  padding: 24px;
+  @media only screen and (max-width: 480px) {
+    font-size: 40px;
+    line-height: 50px;
+  }
+`;
+
+export const CardTextComp = styled.div`
+  opacity: 0.9;
+  background-color: #484c52;
+  height: 100%;
+  border-radius: 5px;
+  display: table;
 `;

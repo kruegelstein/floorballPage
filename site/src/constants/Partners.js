@@ -1,18 +1,17 @@
-import Prowin from "../assets/Prowin.PNG";
 import Planungsbüro from "../assets/Planungsbüro.PNG";
 import FloorballDeutschland from "../assets/FloorballDeutschland.png";
 import SfpHospitality from "../assets/SfpHospitality.png";
+import Floorballshop from "../assets/FloorballShop1.jpg";
 
 export const Partners = [
   {
-    title: "Prowin Penteker",
+    title: "floorballshop.com",
     text:
-      "proWIN produziert nachhaltige und umweltverträgliche Reinigungs- und Wellnessprodukte. Die proWIN Vertriebspartnerin Beate Penteker mit Sitz in Berlin hat uns in der Saison 2018/2019 unterstützt.",
-    link: "www.prowin.net",
-    href: "https://www.prowin.net/vertrieb/b.penteker",
-    src: Prowin,
-    alt: "Prowin Penteker unterstützt die Floorball Abteilung des SCS Berlin",
-    wide: true
+      "floorballshop.com gibt seit 2006 das Beste für Tausende von zufriedenen Kunden und ist heute der führende Online-Shop in Deutschland und Österreich für Floorball bzw. Unihockey Schläger und Zubehör. Seit 2019 ist floorballshop.com offizeller Ausrüster der Floorball Abteilung des SCS Berlin.",
+    link: "www.floorballshop.com",
+    href: "https://www.floorballshop.com",
+    src: Floorballshop,
+    alt: "Floorballshop unterstützt die Floorball Abteilung des SCS Berlin"
   },
   {
     title: "Planungsbüro KÖPCONS GmbH",
@@ -34,14 +33,13 @@ export const Partners = [
     alt: "SFP Hospitality unterstützt die Floorball Abteilung des SCS Berlin"
   },
   {
-    title: "Floorball deutschland",
+    title: "Floorball Deutschland",
     text:
       "Auch bei Floorball Deutschland, dem Floorball-Verband Deutschland, möchten wir uns für die Unterstützung bedanken.",
     link: "www.floorball.de",
     href: "https://www.floorball.de/",
     src: FloorballDeutschland,
     alt:
-      "Floorball Deutschland unterstützt die Floorball Abteilung des SCS Berlin",
-    wide: true
+      "Floorball Deutschland unterstützt die Floorball Abteilung des SCS Berlin"
   }
 ];
