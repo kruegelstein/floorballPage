@@ -534,16 +534,26 @@ export const NewsComp = styled.div`
 `;
 
 export const Card = styled.div`
-  height: 20rem;
-  width: 16rem;
+  cursor: pointer;
+  display: inline-block;
+  height: 28rem;
+  width: 22rem;
+  margin: 0 2rem;
   border: 1px solid #e8e8e8;
   border-radius: 5px;
-  margin: auto;
   background-image: url('${props => props.background}');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  overflow: hidden;
+  overflow-y: scroll;
+  @media only screen and (max-width: 480px) {
+    height: 49rem;
+    width: 45rem;
+    display: block;
+    margin: 2rem auto;
+  }
 `;
 
 export const NewsTitle = styled.h2`
@@ -554,11 +564,61 @@ export const NewsTitle = styled.h2`
 `;
 
 export const CardsComp = styled.div`
-  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  width: calc(100vw - 4rem);
+  margin: 2rem auto 0;
   padding-bottom: 2rem;
+
+  @media only screen and (max-width: 480px) {
+    width: 100%;
+    display: block;
+    text-align: center;
+  }
 `;
 
-export const CardTitle = styled.div`
+export const CardTitle = styled.span`
   width: 100%;
+  font-size: 24px;
+  font-weight: bold;
+  color: #e8e8e8;
+  display: table-cell;
+  vertical-align: middle;
+  @media only screen and (max-width: 480px) {
+    font-size: 50px;
+  }
+`;
+
+export const CardTitleComp = styled.div`
+  opacity: 0.9;
+  background-color: #484c52;
+  height: 25%;
+  border-radius: 5px;
+  display: table;
+  margin: 4px;
+  @media only screen and (max-width: 480px) {
+    width: 98%;
+  }
+`;
+
+export const CardText = styled.span`
+  width: 100%;
+  font-size: 18px;
+  color: #e8e8e8;
+  display: table-cell;
+  vertical-align: middle;
+  line-height: 24px;
+  padding: 24px;
+  @media only screen and (max-width: 480px) {
+    font-size: 40px;
+    line-height: 50px;
+  }
+`;
+
+export const CardTextComp = styled.div`
+  opacity: 0.9;
+  background-color: #484c52;
   height: 100%;
+  border-radius: 5px;
+  display: table;
 `;
