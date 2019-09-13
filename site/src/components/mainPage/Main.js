@@ -169,6 +169,7 @@ export const PlayerTextContainer = styled.div`
   width: 60%;
   textalign: center;
   margin: 5rem auto 0;
+  padding-bottom: 1rem;
 `;
 
 export const TrainingTitle = styled.h2`
