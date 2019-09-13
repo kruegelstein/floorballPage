@@ -1,19 +1,9 @@
 import Prowin from "../assets/Prowin.PNG";
-import Efloorball from "../assets/Efloorball.png";
 import Planungsbüro from "../assets/Planungsbüro.PNG";
 import FloorballDeutschland from "../assets/FloorballDeutschland.png";
 import SfpHospitality from "../assets/SfpHospitality.png";
 
 export const Partners = [
-  {
-    title: "eFloorball",
-    text:
-      "Seit der Saison 2018/2019 ist der tschechische Flooballshop eFloorball unser Ausrüster. Mit der Expertise aus über 15 Jahren im Geschäft bietet der Shop ein umfangreiches Angebot an Floorballmaterial und -zubehör.",
-    href: "https://www.efloorball.de/",
-    link: "www.efloorball.de",
-    src: Efloorball,
-    alt: "eFloorball unterstützt die Floorball Abteilung des SCS Berlin"
-  },
   {
     title: "Prowin Penteker",
     text:
@@ -44,7 +34,7 @@ export const Partners = [
     alt: "SFP Hospitality unterstützt die Floorball Abteilung des SCS Berlin"
   },
   {
-    title: "Floorball deutschland",
+    title: "Floorball Deutschland",
     text:
       "Auch bei Floorball Deutschland, dem Floorball-Verband Deutschland, möchten wir uns für die Unterstützung bedanken.",
     link: "www.floorball.de",

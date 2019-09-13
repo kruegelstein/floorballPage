@@ -19,7 +19,7 @@ class PartnerSection extends Component {
     return (
       <>
         <PartnerTitle>
-          Partner und Unterschützer der Floorball Abteilung des SCS Berlin
+          Partner und Unterstützer der Floorball Abteilung des SCS Berlin
         </PartnerTitle>
         <BlockContainer margin={"0 auto 2rem auto"} width={"50%"}>
           <Text fontSize={"18px"} fontWeight={"bold"}>
@@ -38,7 +38,7 @@ class PartnerSection extends Component {
         </BlockContainer>
         <Divider dark />
         <FlexContainer margin={"0 0 2rem 0"}>
-          {Partners.filter((partner, index) => index < 3).map(
+          {Partners.map(
             (partner, index) => (
               <InlineContainer key={index}>
                 <BlockContainer margin={"0 auto 1rem auto"} width={"20rem"}>
@@ -47,7 +47,7 @@ class PartnerSection extends Component {
                   </Text>
                 </BlockContainer>
                 <BlockContainer margin={"0 auto 2rem auto"} width={"50%"}>
-                  <Text height={"10rem"} fontSize={"16px"} justify>
+                  <Text height={"13rem"} fontSize={"16px"} justify>
                     {partner.text}
                   </Text>
                 </BlockContainer>
@@ -71,39 +71,6 @@ class PartnerSection extends Component {
           )}
         </FlexContainer>
         <Divider dark thin wide />
-        <FlexContainer>
-          {Partners.filter((partner, index) => index > 2).map(
-            (partner, index) => (
-              <InlineContainer margin={"0 2rem 2rem 2rem"} key={index}>
-                <BlockContainer margin={"0 auto 1rem auto"} width={"20rem"}>
-                  <Text fontSize={"18px"} fontWeight={"bold"}>
-                    {partner.title}
-                  </Text>
-                </BlockContainer>
-                <BlockContainer margin={"0 auto 2rem auto"} width={"40%"}>
-                  <Text height={"10rem"} fontSize={"16px"} justify>
-                    {partner.text}
-                  </Text>
-                </BlockContainer>
-                <Partner>
-                  <PartnerIcon
-                    src={partner.src}
-                    alt={partner.alt}
-                    height="8rem"
-                    width="8rem"
-                  />
-                  <PartnerName
-                    href={partner.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {partner.link}
-                  </PartnerName>
-                </Partner>
-              </InlineContainer>
-            )
-          )}
-        </FlexContainer>
         <BlockContainer>
           <PartnerTitle withTopMargin>
             Werden auch Sie ein Partner!{" "}

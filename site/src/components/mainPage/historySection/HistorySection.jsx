@@ -35,9 +35,9 @@ class HistorySection extends Component {
             <TimeItemContent>
               <h2>2013</h2>
               <p>
-                Die erste Saison endete erfolgreich: Der FTC wurde
+                Die erste Saison endet erfolgreich: Der FTC wird
                 Berlin-Brandenburgischer Vize-Landesmeister im Kleinfeld. Kurz
-                darauf verpasste das Team knapp die Teilnahme an der Deutschen
+                darauf verpasst das Team knapp die Teilnahme an der Deutschen
                 Meisterschaft.{" "}
               </p>
             </TimeItemContent>
@@ -55,11 +55,11 @@ class HistorySection extends Component {
           <TimeItemRight>
             <TimeItemContent>
               <h2>
-                2016/ 2017 - Floorball beim SC Siemensstadt und der Weg in die
+                2016/2017 - Floorball beim SC Siemensstadt und der Weg in die
                 zweite Liga
               </h2>
               <p>
-                Im Jahr 2016 wurde der FTC aufgelöst. Die aktiven Mitglieder
+                Im Jahr 2016 wird der FTC aufgelöst. Die aktiven Mitglieder
                 bilden seither die Abteilung <i>Floorball/Hockey</i> im Berliner
                 Verein <b>SC Siemensstadt</b>. Mittlerweile spielt die
                 Mannschaft auch in der Berlin-Brandenburger Großfeldliga.

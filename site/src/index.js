@@ -11,7 +11,7 @@ ReactDOM.render(
     <Route path="/" exact component={App} />
     <Route path="/imprint" component={Impressum} />
   </Router>,
-  document.getElementById("root")
+  document.getElementById("roote")
 );
 
 // If you want your app to work offline and load faster, you can change

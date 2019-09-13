@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 // Styled-components
-import { SeasonComp } from "../Main.js";
+import { SeasonComp, Divider } from "../Main.js";
 
 // Components
 import Table from "./Table.jsx";
@@ -13,6 +13,7 @@ class SeasonSection extends Component {
     return (
       <SeasonComp>
         <NextGame />
+        <Divider />
         <Table />
         {/*<UpcommingEvents />*/}
       </SeasonComp>
