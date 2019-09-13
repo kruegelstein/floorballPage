@@ -27,10 +27,11 @@ class NextGame extends Component {
           <TeamName>Floorball Ingolstadt/Nordheim</TeamName>
         </Team>
         <Matchup>
-          <MatchupText>Spielstätte steht noch aus</MatchupText>
-          <MatchupText>Bullyzeit steht noch aus</MatchupText>
+          <MatchupText>Horst-Korber-Sportzentrum</MatchupText>
+          <MatchupText>(Glockenturmstraße 3-5 14053 Berlin)</MatchupText>
+          <MatchupText>Bully: 14.00h</MatchupText>
           <Placeholder>- : -</Placeholder>
-          <MatchupText>Samstag, 22.9.19</MatchupText>
+          <MatchupText>Sonntag, 22.9.19</MatchupText>
         </Matchup>
         <Team>
           <TeamLogo src={SCS}></TeamLogo>
