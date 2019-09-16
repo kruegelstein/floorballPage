@@ -33,6 +33,18 @@ class MediaSection extends React.Component {
             Aktuelle Videos der Floorball Abteilung des SC Siemensstadt
           </PartnerTitle>
           <Text fontSize={"18px"} fontWeight={"bold"}>
+            -- Floorball Deutschland Pokal 19/20 --{" "}
+          </Text>
+          <Divider dark thin />
+          <BlockContainer margin={"0 0 2rem 0"}>
+            <BlockContainer margin={"0 0 1rem 0"}>
+              <Text fontSize={"16px"} fontWeight={"bold"}>
+                1. Runde: UHC Elster v. SCS
+              </Text>
+            </BlockContainer>
+            <YouTube videoId="wrKlO4_0VyU" opts={opts} />
+          </BlockContainer>
+          <Text fontSize={"18px"} fontWeight={"bold"}>
             -- Playoffs Regionalliga Kleinfeld --{" "}
           </Text>
           <Divider dark thin />
@@ -55,18 +67,6 @@ class MediaSection extends React.Component {
               </Text>
             </BlockContainer>
             <YouTube videoId="fVDnV88Ol7w" opts={opts} />
-          </BlockContainer>
-          <Text fontSize={"18px"} fontWeight={"bold"}>
-            -- Floorball Deutschland Pokal 19/20 --{" "}
-          </Text>
-          <Divider dark thin />
-          <BlockContainer margin={"0 0 2rem 0"}>
-            <BlockContainer margin={"0 0 1rem 0"}>
-              <Text fontSize={"16px"} fontWeight={"bold"}>
-                1. Runde: UHC Elster v. SCS
-              </Text>
-            </BlockContainer>
-            <YouTube videoId="wrKlO4_0VyU" opts={opts} />
           </BlockContainer>
         </Videos>
       </>
