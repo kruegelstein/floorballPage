@@ -32,25 +32,27 @@ class NewsSection extends Component {
       <NewsComp>
         <NewsTitle>What's new</NewsTitle>
         <CardsComp>
-          {news.map((singleNews, index) => (
-            <Card
-              key={index}
-              background={singleNews.image}
-              onClick={() => this.selectNews(index)}
-              onMouseEnter={() => this.selectNews(index)}
-              onMouseLeave={this.deselectNews}
-            >
-              {this.state.selectedIndex !== index ? (
-                <CardTitleComp>
-                  <CardTitle>{singleNews.title}</CardTitle>
-                </CardTitleComp>
-              ) : (
-                <CardTextComp>
-                  <CardText>{singleNews.text}</CardText>
-                </CardTextComp>
-              )}
-            </Card>
-          ))}
+          {news
+            .map((singleNews, index) => (
+              <Card
+                key={index}
+                background={singleNews.image}
+                onClick={() => this.selectNews(index)}
+                onMouseEnter={() => this.selectNews(index)}
+                onMouseLeave={this.deselectNews}
+              >
+                {this.state.selectedIndex !== index ? (
+                  <CardTitleComp>
+                    <CardTitle>{singleNews.title}</CardTitle>
+                  </CardTitleComp>
+                ) : (
+                  <CardTextComp>
+                    <CardText>{singleNews.text}</CardText>
+                  </CardTextComp>
+                )}
+              </Card>
+            ))
+            .reverse()}
         </CardsComp>
       </NewsComp>
     );

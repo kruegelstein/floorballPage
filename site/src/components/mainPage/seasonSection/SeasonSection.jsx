@@ -6,7 +6,7 @@ import { SeasonComp, Divider } from "../Main.js";
 // Components
 import Table from "./Table.jsx";
 import NextGame from "./NextGame.jsx";
-// import UpcommingEvents from './UpcommingEvents.jsx'
+import LatestEvents from "./LatestEvents.jsx";
 
 class SeasonSection extends Component {
   render() {
@@ -15,7 +15,8 @@ class SeasonSection extends Component {
         <NextGame />
         <Divider />
         <Table />
-        {/*<UpcommingEvents />*/}
+        <Divider />
+        <LatestEvents />
       </SeasonComp>
     );
   }
