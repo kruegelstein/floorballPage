@@ -1,6 +1,6 @@
-import SCS from "../../../assets/Logo.png";
-import Elster from "../../../assets/UHCElster.png";
-import Pokal from "../../../assets/FDPokal.jpeg";
+import SCS from "../assets/Logo.png";
+import Elster from "../assets/UHCElster.png";
+import Pokal from "../assets/FDPokal.jpeg";
 
 export const LatestResults = [
   {
