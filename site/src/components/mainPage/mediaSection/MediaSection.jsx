@@ -44,6 +44,15 @@ class MediaSection extends React.Component {
             </BlockContainer>
             <YouTube videoId="wrKlO4_0VyU" opts={opts} />
           </BlockContainer>
+          <Divider dark thin wide />
+          <BlockContainer margin={"0 0 2rem 0"}>
+            <BlockContainer margin={"0 0 1rem 0"}>
+              <Text fontSize={"16px"} fontWeight={"bold"}>
+                1. Runde: SG SCS/Eisbären Juniors v. TV Dinklage 04
+              </Text>
+            </BlockContainer>
+            <YouTube videoId="CQcHG0Y-rKI" opts={opts} />
+          </BlockContainer>
           <Text fontSize={"18px"} fontWeight={"bold"}>
             -- Playoffs Regionalliga Kleinfeld --{" "}
           </Text>
