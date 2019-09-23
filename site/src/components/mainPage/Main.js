@@ -631,63 +631,84 @@ export const LatestTitle = styled.h2`
 `;
 
 export const LatestComp = styled.div`
-  display: flex;
+  display: inline-block;
   width: 90%;
   margin: 0.5rem auto;
-  justify-contest: center;
 `;
 
 export const ResultComp = styled.div`
   margin: auto;
   display: flex;
   border: 1px solid #8c96a0;
-  box-shadow: 10px 10px 10px #8c96a0;
+  box-shadow: 5px 5px 5px #8c96a0;
   border-radius: 5px;
+  height: 56px;
 `;
 
 export const Contest = styled.div`
   display: inline-block;
+  width: 20%;
+  height: 56px;
+  line-height: 56px;
+  vertical-align: middle;
 `;
 export const ResultText = styled.div`
-  height: 2rem;
-  line-height: 2rem;
+  height: 56px;
+  line-height: 56px;
   vertical-align: middle;
   display: inline-block;
   margin: 0 1rem 0 0;
   ${props => (props.bold ? "font-weight: bold" : "")}
 `;
 export const ContestImage = styled.img`
-  margin-top: 8px;
   margin-right: 8px;
-  width: 2rem;
   height: 2rem;
+  line-height: 56px;
+  vertical-align: middle;
 `;
 
 export const ResultHome = styled.div`
   display: inline-block;
+  width: 30%;
+  height: 56px;
+  line-height: 56px;
+  vertical-align: middle;
 `;
 
 export const ResultAway = styled.div`
   display: inline-block;
+  width: 30%;
+  height: 56px;
+  line-height: 56px;
+  vertical-align: middle;
 `;
 
 export const Result = styled.div`
-  padding-top: 1.2rem;
   display: inline-block;
+  width: 20%;
+  height: 56px;
+  line-height: 56px;
+  vertical-align: middle;
+`;
+
+export const Versus = styled.div`
+  height: 56px;
+  line-height: 56px;
+  vertical-align: middle;
 `;
 
 export const HomeImage = styled.img`
-  margin-top: 8px;
   margin-right: 8px;
-  width: 2rem;
   height: 2rem;
+  line-height: 56px;
+  vertical-align: middle;
 `;
 
 export const AwayImage = styled.img`
-  margin-top: 8px;
   margin-right: 8px;
-  width: 2rem;
   height: 2rem;
+  line-height: 56px;
+  vertical-align: middle;
 `;
 
 export const ResultImage = styled.div`

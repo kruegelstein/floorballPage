@@ -13,7 +13,8 @@ import {
   ResultAway,
   AwayImage,
   Result,
-  ResultImage
+  ResultImage,
+  Versus
 } from "../Main.js";
 
 import { LatestResults } from "../../../constants/LatestResults";
@@ -36,8 +37,10 @@ class LatestEvents extends Component {
               <ResultHome>
                 <HomeImage src={result.homeImage} />
                 <ResultText>{result.home}</ResultText>
-                <ResultText>vs.</ResultText>
               </ResultHome>
+              <Versus>
+                <ResultText>vs.</ResultText>
+              </Versus>
               <ResultAway>
                 <AwayImage src={result.awayImage} />
                 <ResultText>{result.away}</ResultText>
