@@ -26,7 +26,7 @@ class LatestEvents extends Component {
         <LatestTitle>Letzte Ergebnisse</LatestTitle>
         <LatestComp>
           {LatestResults.map(result => (
-            <ResultComp>
+            <ResultComp key={result.date}>
               <Contest>
                 <ContestImage src={result.contestImage} />
                 <ResultText>{result.contest}</ResultText>

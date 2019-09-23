@@ -1,22 +1,23 @@
 import News1 from "../assets/news.jpg";
-import News2 from "../assets/News2.jpg";
-import News3 from "../assets/News3.jpeg";
+// import News2 from "../assets/News2.jpg";
+// import News3 from "../assets/News3.jpeg";
 import News4 from "../assets/News4.jpeg";
+import News5 from "../assets/News5.jpeg";
 
 export const news = [
-  {
-    title: "SCS gewinnt Phönix Cup in Leipzig",
-    text:
-      "Im Zuge der Vorbereitung auf die kommende Saison nahm der SCS an den diesjährigen Phönix Open teil. Neben den Hauptstädtern kamen auch die Biber aus Halle nach Leipzig, um für die neue Saison zu testen. Im einem tollen Turnier konnten sich die Berliner gegen Saalebiber Halle, UHC Döbeln, Phönix Leipzig und MFBC Grimma (Damen) durchsetzen und den Turniersieg verbuchen. Zudem stellte der SCS Berlin mit Simon auch den besten Goalie des Turniers. Wir freuen uns über den ersten Erfolg der Saison!",
-    image: News2
-  },
-  {
-    title:
-      "SCS gewinnt letzten Test vor dem Saisonstart gegen SSV Rapid mit gemischten Gefühlen",
-    text:
-      "Nach dem Turniersieg im Vorbereitungsturnier in Leipzig stand der letzte Test vor dem Saisonstart ins Haus. Gegner war SSV Rapid. Die Gute Nachricht zuerst: Die Jungs und Mädels vom SCS konnten das Spiel mit 12:4 gewinnen. Bitter allerdings: (Star-)Verteidiger Nick Hennig (NH7) der ja eigentlich nie verletzt ist, bekommt nach einem Solo das Blatt eines Gegner unter die Sohle. Die zahlreichen Fans (2) wissen sofort nach dem dumpfen Aufschlag des durchtrainierten Hünen, dass es für die Nummer 7 des SCS Berlin nicht weitergeht. Es bleibt zu wünschen, dass es bis zum Saisonstart der 2. Bundesliga am 22.9 reicht. Gute Besserung an dieser Stelle!",
-    image: News3
-  },
+  // {
+  //   title: "SCS gewinnt Phönix Cup in Leipzig",
+  //   text:
+  //     "Im Zuge der Vorbereitung auf die kommende Saison nahm der SCS an den diesjährigen Phönix Open teil. Neben den Hauptstädtern kamen auch die Biber aus Halle nach Leipzig, um für die neue Saison zu testen. Im einem tollen Turnier konnten sich die Berliner gegen Saalebiber Halle, UHC Döbeln, Phönix Leipzig und MFBC Grimma (Damen) durchsetzen und den Turniersieg verbuchen. Zudem stellte der SCS Berlin mit Simon auch den besten Goalie des Turniers. Wir freuen uns über den ersten Erfolg der Saison!",
+  //   image: News2
+  // },
+  // {
+  //   title:
+  //     "SCS gewinnt letzten Test vor dem Saisonstart gegen SSV Rapid mit gemischten Gefühlen",
+  //   text:
+  //     "Nach dem Turniersieg im Vorbereitungsturnier in Leipzig stand der letzte Test vor dem Saisonstart ins Haus. Gegner war SSV Rapid. Die Gute Nachricht zuerst: Die Jungs und Mädels vom SCS konnten das Spiel mit 12:4 gewinnen. Bitter allerdings: (Star-)Verteidiger Nick Hennig (NH7) der ja eigentlich nie verletzt ist, bekommt nach einem Solo das Blatt eines Gegner unter die Sohle. Die zahlreichen Fans (2) wissen sofort nach dem dumpfen Aufschlag des durchtrainierten Hünen, dass es für die Nummer 7 des SCS Berlin nicht weitergeht. Es bleibt zu wünschen, dass es bis zum Saisonstart der 2. Bundesliga am 22.9 reicht. Gute Besserung an dieser Stelle!",
+  //   image: News3
+  // },
   {
     title:
       "🔥 SCS Berlin startet am 22.9.19 14h wieder in die 2. Floorball Bundesliga! 🔥",
@@ -29,5 +30,11 @@ export const news = [
     text:
       "Das Wichtigste zuerst. Der SCS Berlin gewinnt die erste Runde im Floorball Deutschland Pokal 6 zu 3 gegen den UHC Elster. In der Frühphase des Spiels waren die Berliner die klar bessere Mannschaft und gingen folgerichtig durch Niklas ersten Treffer im SCS Trikot (Kasten) und dem erstaunlich schnell wieder genesenen NH7 (Simulant) mit 2:0 in Führung. Doch der SCS wäre nicht der SCS, wenn auf jedes Hui nicht auch ein Pfui folgen würde. So beschlossen die Berliner geschlossen, aber ohne ersichtlichen Grund den Panikknopf zu drücken. Die Gastgeber aus Elster wurden deutlich stärker und bedanken sich netterweise mit dem 2:2 Ausgleich. Ab dem 2. Drittel wurde das Spiel dann härter und körperbetonter. Die Nummer 17 der Berliner leitete in gewohnter Manier eine ganze Latte von 2 Minuten Strafen auf beiden Seiten ein. Das konnten die Gastgeber offensichtlich nicht auf sich sitzen lassen und schickten in den nächsten Minuten ein und denselben Spieler gleich drei mal hintereinander für 2 min auf die Bank. Trotz eines eher mäßigen Drittels konnten die Berliner mit einem 4:2 in das letzte Drittel starten. Im letzten Abschnitt der Partie wurde der SCS dann wieder stärker, aber der UHC Elster traf zum kurzzeitigen 4:3 Anschlusstreffer. Doch davon ließ sich der SCS nicht beirren und ging bald wieder mit 5:3 in Führung. Sichtlich erschöpft spielte der SCS im Anschluss lieber erstmal nur zu dritt weiter, da gleich zwei Berliner sich entschieden auf der Strafbank kurz durchzuschnaufen. Den Schlusspunkt einer durchaus unterhaltsamen Partie setzte erneut Niklas. Das macht Lust auf mehr. Danke an den UHC für ein spannendes Spiel und viel Erfolg in der Liga! Des Weiteren spielten am Sonntag die restlichen SCSler in der Spielgemeinschaft mit den Eisbären Juniors im Pokal. Auch sie konnten sich zuhause gegen die Otter aus Dinklage mit 6:3 durchsetzen! Herzlichen Glückwunsch an dieser Stelle. Und da der Pokal bekanntlich seine eigenen Geschichten schreibt trifft der SCS in der 2. Runde des Pokals ausgerechnet auf die SG von SCS und Eisbären Juniors. Wir freuen uns auf ein schönes Spiel unter Freunden ❤️ ",
     image: News4
+  },
+  {
+    title: "6 Punkte zum Saisonauftakt des SCS Berlin 💪",
+    text:
+      "Die Floorballer des SCS feiern einen gelungenden Saisonauftakt. Sowohl die SG mit den Eisbären in der Regionalliga Berlin als auch die erste Mannschaft in der 2. Bundesliga konnten ihre Saisonpremieren gewinnen. Doch eins nach dem anderem. Den Anfang machte die SG SCS/Eisbären am Samstag gegen Potsdam und man war das ein fades Ding. Die Leichtigkeit des Pokalsiegs war komplett verflogen. Man tat sich trotz eigentlicher Überlegenheit extrem schwer. Höhepunkt dieser Partie war ein technisch sehr feiner Drehschuss von Alex Moos zum 5:3 Endstand. Aber man muss ja auch nicht immer Gegner und Fans verzaubern. Hin und wieder reicht es halt auch einfach drei Punkte einzustecken. Am Sonntag dann der Auftakt der Floorballer des SCS in der 2. Bundesliga. Gegner war Ingolstadt gegen die man in der letzten Saison 3 von möglichen 6 Punkten gewinnen konnte. Hoffnung machte eine intensive Vorbereitung und die Tatsache, dass Ingolstadt mit einem Doppelspieltag startete und bereits vom Vortag eine Niederlage beim Aufsteiger aus Dessau in den Knochen hatte. Vor einer Rekordkulisse von knapp hundert Zuschauern stellte sich aber schnell heraus, dass diese Hoffnung komplett unbegründet war. Einziger Hingucker des ersten Drittels der Siemenstädter war Trainer Gordon Arning der extra seinen feinsten Zwirn heraus gekramt hatte. Doch ein schlechter Pass wird halt leider nicht besser nur weil der Trainer ein Sakko trägt. Die Berliner erwischten einen Horrorstart zum zungeschnalzen. Gute gedachte Dinge wie im Vorfeld aufgenommen Ansagen für die Zuschauer waren genauso stockend wie das Pass- und Aufbauspiel. Die Berliner beendeten das erste Drittel verdient mit 1:4 trotz eigentlich guter Ballbesitzphasen, weil jeder individuelle Fehler von Ingolstadt knallhart bestraft wurde. Der Toresfehler von NH7 stand sinnbildlich für einen SCS der zwar irgendwie wollte aber gleichzeitig so gar nicht konnte und es sah weite Strecken so aus, als ob die Gäste mindestes einem Mann mehr auf dem Feld hatten. In der ersten Drittelpause fragen sich dann die Fans der Hausherren berechtigt, ob der SCS hier komplett unter die Räder kommt. Ein etwas erfolgreicheres, aber von außen nicht unbedingt schöneres 2. Drittel nutze der SCS dann um auf 3:5 zu verkürzen. Im dritten Drittel zeigte der SCS dann endlich ein komplett anderes Gesicht das für vieles in den beiden Dritteln entschädigen sollte. In der vorherigen Saison glänzten die Berliner im letzten Abschnitt noch vornehmlich mit Konditionschwäche und Panik, doch diesmal waren sie wie ausgewechselt. Gegen immernoch sehr gute Ingolstädter lief der Ball nun endlich rund und auch der Kampfgeist stimmte. Nach 10 Minuten im letzten Abschnitt stand es 6:6 und prompt wurde der SCS wieder fahrig. Nicht mal eine Minute dauerte es bis die Berliner wieder 6:8 in Rückstand gerieten. Den treueren Fans des SCS schwante nichts Gutes, denn in der letzten Saison gelangen den Berlinern selten bis nie mehr als 7 Treffer in einem Spiel. Doch auch Ingolstadt merkte man nun das Spiel vom Vortag an. Insgesamt vier von fünf Strafzeiten zogen die Donau-Floorballer in den letzten 20 Minuten des Spiels. Trotz Statik im Überzahlspiel konnten die Berliner dann doch noch auf 8:8 ausgleichen. Die erste und einzige Führung und gleichzeitig Schlusspunkt setzte Kovi mit dem 9:8 Siegtreffer. Durch die richtige Einstellung und das nötige Quäntchen Glück kann der SCS einen Arbeitssieg einfahren und trifft am kommenden Wochenende auswärts auf Halle. Trotz aller Freude nach dem Spiel wussten die Siemenstädter bei wem sie sich heute zu bedanken hatten. Zum einen bei den Fans die eine tolle Kulisse boten und zum anderen bei Man of the Match Pascal Hein, der gleich vier Treffer zum Auftaktsieg beisteuerte. Danke an Ingolstadt für ein extrem spannendes und intensives Spiel und weiterhin viel Erfolg in der Saison. ",
+    image: News5
   }
 ];
