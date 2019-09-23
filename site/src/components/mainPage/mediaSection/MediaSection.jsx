@@ -33,6 +33,18 @@ class MediaSection extends React.Component {
             Aktuelle Videos der Floorball Abteilung des SC Siemensstadt
           </PartnerTitle>
           <Text fontSize={"18px"} fontWeight={"bold"}>
+            -- 2. Floorball Bundesliga 19/20 --{" "}
+          </Text>
+          <Divider dark thin />
+          <BlockContainer margin={"0 0 2rem 0"}>
+            <BlockContainer margin={"0 0 1rem 0"}>
+              <Text fontSize={"16px"} fontWeight={"bold"}>
+                SCS v. Floorball Ingolstadt/Nordheim
+              </Text>
+            </BlockContainer>
+            <YouTube videoId="JasaZ1DC6a4" opts={opts} />
+          </BlockContainer>
+          <Text fontSize={"18px"} fontWeight={"bold"}>
             -- Floorball Deutschland Pokal 19/20 --{" "}
           </Text>
           <Divider dark thin />
