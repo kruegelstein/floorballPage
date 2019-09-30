@@ -715,4 +715,6 @@ export const ResultImage = styled.div`
   display: inline-block;
   width: 2rem;
   height: 2rem;
+  float: right;
+  margin-right: 8px;
 `;

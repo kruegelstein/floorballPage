@@ -3,8 +3,20 @@ import Elster from "../assets/UHCElster.png";
 import Pokal from "../assets/FDPokal.jpeg";
 import Liga from "../assets/Logo2BL.png";
 import Ingolstadt from "../assets/Ingolstadt.png";
+import Halle from "../assets/Halle.png";
 
 export const LatestResults = [
+  {
+    contest: "Liga",
+    contestImage: Liga,
+    home: "USV Halle Saalebiber",
+    homeImage: Halle,
+    away: "SCS Berlin",
+    awayImage: SCS,
+    date: "28.9.19",
+    result: "7:6 n.V.",
+    resultImage: "❌"
+  },
   {
     contest: "Liga",
     contestImage: Liga,

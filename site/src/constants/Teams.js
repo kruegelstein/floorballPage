@@ -1,9 +1,22 @@
 export const Teams = [
   {
+    name: "Unihockey Igels Dresden",
+    spiele: 3,
+    diff: "42:10",
+    punkte: 9
+  },
+  {
     name: "PSV 90 Dessau",
-    spiele: 1,
-    diff: "11:4",
-    punkte: 3
+    spiele: 2,
+    diff: "19:11",
+    punkte: 6
+  },
+  {
+    name: "SCS Berlin",
+    spiele: 2,
+    diff: "15:15",
+    punkte: 4,
+    own: true
   },
   {
     name: "SC DHfK Leipzig",
@@ -12,41 +25,27 @@ export const Teams = [
     punkte: 3
   },
   {
-    name: "Unihockey Igels Dresden",
-    spiele: 1,
-    diff: "7:3",
-    punkte: 3
-  },
-
-  {
-    name: "SCS Berlin",
-    spiele: 1,
-    diff: "9:8",
-    punkte: 3,
-    own: true
-  },
-  {
-    name: "Sportvg Feuerbach",
-    spiele: 0,
-    diff: "0:0",
-    punkte: 0
-  },
-  {
     name: "USV Halle Saalebiber",
-    spiele: 1,
-    diff: "3:7",
-    punkte: 0
+    spiele: 2,
+    diff: "10:13",
+    punkte: 2
   },
   {
     name: "FC Rennsteig Avalanche",
-    spiele: 1,
-    diff: "5:10",
+    spiele: 2,
+    diff: "12:18",
     punkte: 0
   },
   {
     name: "Floorball Ingolstadt/Nordheim",
-    spiele: 2,
-    diff: "12:20",
+    spiele: 3,
+    diff: "16:28",
+    punkte: 0
+  },
+  {
+    name: "Sportvg Feuerbach",
+    spiele: 1,
+    diff: "3:27",
     punkte: 0
   }
 ];
