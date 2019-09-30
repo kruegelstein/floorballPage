@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 // Team Logos
 import SCS from "../../../assets/Logo.png";
-import Halle from "../../../assets/Halle.png";
+import Feuerbach from "../../../assets/Feuerbach.png";
 import Logo2BL from "../../../assets/Logo2BL.png";
 
 // Styled-Components
@@ -23,19 +23,19 @@ class NextGame extends Component {
       <NextGameComp>
         <LeagueLogo src={Logo2BL} />
         <Team>
-          <TeamLogo src={Halle}></TeamLogo>
-          <TeamName>USV Halle Saalebiber</TeamName>
+          <TeamLogo src={SCS}></TeamLogo>
+          <TeamName>SCS Berlinr</TeamName>
         </Team>
         <Matchup>
-          <MatchupText>Universitätssporthalle</MatchupText>
-          <MatchupText>(Selkestraße 7 06122 Halle (Saale))</MatchupText>
-          <MatchupText>Bully: 18:30h</MatchupText>
+          <MatchupText>Sport Centrum Siemensstadt</MatchupText>
+          <MatchupText>(Buolstraße 14 13629 Berlin)</MatchupText>
+          <MatchupText>Bully: 16:00h</MatchupText>
           <Placeholder>- : -</Placeholder>
-          <MatchupText>Samstag, 28.9.19</MatchupText>
+          <MatchupText>Samstag, 26.10.19</MatchupText>
         </Matchup>
         <Team>
-          <TeamLogo src={SCS}></TeamLogo>
-          <TeamName>SCS Berlin</TeamName>
+          <TeamLogo src={Feuerbach}></TeamLogo>
+          <TeamName>Sportvg Feuerbach</TeamName>
         </Team>
       </NextGameComp>
     );
