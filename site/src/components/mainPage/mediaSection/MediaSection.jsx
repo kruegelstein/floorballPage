@@ -39,7 +39,16 @@ class MediaSection extends React.Component {
           <BlockContainer margin={"0 0 2rem 0"}>
             <BlockContainer margin={"0 0 1rem 0"}>
               <Text fontSize={"16px"} fontWeight={"bold"}>
-                SCS v. Floorball Ingolstadt/Nordheim
+                2. Spieltag - USV Halle Saalebiber v. SCS Berlin
+              </Text>
+            </BlockContainer>
+            <YouTube videoId="Bdo_I7NCsiE" opts={opts} />
+          </BlockContainer>
+          <Divider dark thin />
+          <BlockContainer margin={"0 0 2rem 0"}>
+            <BlockContainer margin={"0 0 1rem 0"}>
+              <Text fontSize={"16px"} fontWeight={"bold"}>
+                1. Spieltag - SCS v. Floorball Ingolstadt/Nordheim
               </Text>
             </BlockContainer>
             <YouTube videoId="JasaZ1DC6a4" opts={opts} />
