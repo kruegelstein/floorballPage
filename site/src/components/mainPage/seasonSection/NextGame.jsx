@@ -24,7 +24,7 @@ class NextGame extends Component {
         <LeagueLogo src={Logo2BL} />
         <Team>
           <TeamLogo src={SCS}></TeamLogo>
-          <TeamName>SCS Berlinr</TeamName>
+          <TeamName>SCS Berlin</TeamName>
         </Team>
         <Matchup>
           <MatchupText>Sport Centrum Siemensstadt</MatchupText>
