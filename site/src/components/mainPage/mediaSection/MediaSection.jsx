@@ -28,7 +28,7 @@ class MediaSection extends React.Component {
           <source src={Videoplayback} type="video/mp4" />
         </MediaComp>
 
-        <Videos>
+        <Videos id="videos">
           <PartnerTitle>
             Aktuelle Videos der Floorball Abteilung des SC Siemensstadt
           </PartnerTitle>

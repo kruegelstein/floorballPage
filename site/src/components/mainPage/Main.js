@@ -725,7 +725,7 @@ export const ResultImage = styled.div`
 
 export const ContestNext = styled.div`
   display: inline-block;
-  width: 30%;
+  width: 35%;
   height: 56px;
   line-height: 56px;
   vertical-align: middle;
