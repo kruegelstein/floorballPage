@@ -36,14 +36,28 @@ class Table extends Component {
           {Teams.map((team, index) => (
             <TableRow even={index % 2 === 1} key={index}>
               <TableCol>
-                {index === 0 && (
+                {(index === 0 || index === 1) && (
                   <ArrowContainer arrow>
-                    <i className="fas fa-arrow-up" style={{ color: "green" }} />
+                    <i
+                      className="fas fa-arrow-up"
+                      style={{ color: "#0f6b0f" }}
+                    />
                   </ArrowContainer>
                 )}
                 {(index === 7 || index === 8) && (
                   <ArrowContainer arrow>
-                    <i className="fas fa-arrow-down" style={{ color: "red" }} />
+                    <i
+                      className="fas fa-arrow-down"
+                      style={{ color: "#c31b1b" }}
+                    />
+                  </ArrowContainer>
+                )}
+                {index === 6 && (
+                  <ArrowContainer arrow>
+                    <i
+                      className="fas fa-arrow-right"
+                      style={{ color: "#d2d22f" }}
+                    />
                   </ArrowContainer>
                 )}
                 <Text fontWeight={team.own && "bold"}>{index + 1}</Text>

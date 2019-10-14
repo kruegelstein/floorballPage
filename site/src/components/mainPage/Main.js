@@ -673,6 +673,8 @@ export const ResultHome = styled.div`
   height: 56px;
   line-height: 56px;
   vertical-align: middle;
+  text-align: right;
+  margin-right: 24px;
 `;
 
 export const ResultAway = styled.div`
@@ -681,6 +683,8 @@ export const ResultAway = styled.div`
   height: 56px;
   line-height: 56px;
   vertical-align: middle;
+  text-align: left;
+  margin-left: 24px;
 `;
 
 export const Result = styled.div`
@@ -717,4 +721,38 @@ export const ResultImage = styled.div`
   height: 2rem;
   float: right;
   margin-right: 8px;
+`;
+
+export const ContestNext = styled.div`
+  display: inline-block;
+  width: 30%;
+  height: 56px;
+  line-height: 56px;
+  vertical-align: middle;
+`;
+
+export const NextHomeAway = styled.div`
+  display: inline-block;
+  width: 30%;
+  height: 56px;
+  line-height: 56px;
+  vertical-align: middle;
+  text-align: left;
+  margin-left: 24px;
+`;
+
+export const NextHomeConatiner = styled.div`
+  display: inline-block;
+  width: 20%;
+  height: 56px;
+  line-height: 56px;
+  vertical-align: middle;
+  text-align: right;
+  margin-right: 24px;
+`;
+
+export const NextComp = styled.div`
+  display: inline-block;
+  width: 65%;
+  margin: 0.5rem auto;
 `;
