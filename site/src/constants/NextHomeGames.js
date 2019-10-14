@@ -14,7 +14,8 @@ export const NextHomeGames = [
     homeImage: SCS,
     away: "Sportvg Feuerbach",
     awayImage: Feuerbach,
-    date: "26.10.19 16h"
+    date: "26.10.19",
+    time: "16h"
   },
   {
     contest: "Liga",
@@ -23,7 +24,8 @@ export const NextHomeGames = [
     homeImage: SCS,
     away: "PSV 90 Dessau",
     awayImage: Dessau,
-    date: "24.11.19 14h"
+    date: "24.11.19",
+    time: "14h"
   },
   {
     contest: "Liga",
@@ -32,7 +34,8 @@ export const NextHomeGames = [
     homeImage: SCS,
     away: "FC Rennsteig Avalanche",
     awayImage: Rennsteig,
-    date: "22.02.20 16h"
+    date: "22.02.20",
+    time: "16h"
   },
   {
     contest: "Liga",
@@ -41,7 +44,8 @@ export const NextHomeGames = [
     homeImage: SCS,
     away: "Unihockey Igels Dresden",
     awayImage: Dresden,
-    date: "07.03.20 16h"
+    date: "07.03.20",
+    time: "16h"
   },
   {
     contest: "Liga",
@@ -50,6 +54,7 @@ export const NextHomeGames = [
     homeImage: SCS,
     away: "SC DHfK Leipzig",
     awayImage: Leipzig,
-    date: "15.03.20 16h"
+    date: "15.03.20",
+    time: "16h"
   }
 ];

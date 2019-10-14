@@ -35,8 +35,8 @@ class LatestEvents extends Component {
                 <ResultText>|</ResultText>
               </Contest>
               <ResultHome>
-                <HomeImage src={result.homeImage} />
                 <ResultText>{result.home}</ResultText>
+                <HomeImage src={result.homeImage} />
               </ResultHome>
               <Versus>
                 <ResultText>vs.</ResultText>

@@ -3,14 +3,14 @@ import React, { Component } from "react";
 // Styled-Components
 import {
   LatestTitle,
-  LatestComp,
+  NextComp,
   ResultComp,
-  Contest,
+  ContestNext,
   ResultText,
   ContestImage,
-  ResultHome,
+  NextHomeConatiner,
   HomeImage,
-  ResultAway,
+  NextHomeAway,
   AwayImage,
   Versus
 } from "../Main.js";
@@ -22,30 +22,32 @@ class NextHome extends Component {
     return (
       <div>
         <LatestTitle>Nächste Heimspiele</LatestTitle>
-        <LatestComp>
+        <NextComp>
           {NextHomeGames.map(game => (
             <ResultComp key={game.date}>
-              <Contest>
+              <ContestNext>
                 <ContestImage src={game.contestImage} />
                 <ResultText>{game.contest}</ResultText>
                 <ResultText>|</ResultText>
                 <ResultText>{game.date}</ResultText>
                 <ResultText>|</ResultText>
-              </Contest>
-              <ResultHome>
-                <HomeImage src={game.homeImage} />
+                <ResultText>{game.time}</ResultText>
+                <ResultText>|</ResultText>
+              </ContestNext>
+              <NextHomeConatiner>
                 <ResultText>{game.home}</ResultText>
-              </ResultHome>
+                <HomeImage src={game.homeImage} />
+              </NextHomeConatiner>
               <Versus>
                 <ResultText>vs.</ResultText>
               </Versus>
-              <ResultAway>
+              <NextHomeAway>
                 <AwayImage src={game.awayImage} />
                 <ResultText>{game.away}</ResultText>
-              </ResultAway>
+              </NextHomeAway>
             </ResultComp>
           ))}
-        </LatestComp>
+        </NextComp>
       </div>
     );
   }
