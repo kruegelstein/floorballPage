@@ -4,8 +4,20 @@ import Pokal from "../assets/FDPokal.jpeg";
 import Liga from "../assets/Logo2BL.png";
 import Ingolstadt from "../assets/Ingolstadt.png";
 import Halle from "../assets/Halle.png";
+import Eisbären from "../assets/Eisbären.png";
 
 export const LatestResults = [
+  {
+    contest: "Pokal",
+    contestImage: Pokal,
+    home: "SG SCS/Eisbären Juniors",
+    homeImage: Eisbären,
+    away: "SCS Berlin",
+    awayImage: SCS,
+    date: "12.10.19",
+    result: "3:14",
+    resultImage: "✅"
+  },
   {
     contest: "Liga",
     contestImage: Liga,

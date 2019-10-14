@@ -60,6 +60,15 @@ class MediaSection extends React.Component {
           <BlockContainer margin={"0 0 2rem 0"}>
             <BlockContainer margin={"0 0 1rem 0"}>
               <Text fontSize={"16px"} fontWeight={"bold"}>
+                2. Runde: SG SCS/Eisbären Juniors v. SCS
+              </Text>
+            </BlockContainer>
+            <YouTube videoId="UxrIVvuY8JM" opts={opts} />
+          </BlockContainer>
+          <Divider dark thin />
+          <BlockContainer margin={"0 0 2rem 0"}>
+            <BlockContainer margin={"0 0 1rem 0"}>
+              <Text fontSize={"16px"} fontWeight={"bold"}>
                 1. Runde: UHC Elster v. SCS
               </Text>
             </BlockContainer>
