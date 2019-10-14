@@ -7,12 +7,15 @@ import { SeasonComp, Divider } from "../Main.js";
 import Table from "./Table.jsx";
 import NextGame from "./NextGame.jsx";
 import LatestEvents from "./LatestEvents.jsx";
+import NextHome from "./NextHome.jsx";
 
 class SeasonSection extends Component {
   render() {
     return (
       <SeasonComp>
         <NextGame />
+        <Divider />
+        <NextHome />
         <Divider />
         <Table />
         <Divider />
