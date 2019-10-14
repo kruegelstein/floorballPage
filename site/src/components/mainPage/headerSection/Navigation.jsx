@@ -24,6 +24,9 @@ const NavigationItem = styled.div`
   cursor: pointer;
   padding: 16px;
   font-weight: bold;
+  @media only screen and (max-width: 480px) {
+    padding: 25px;
+  }
 `;
 
 class Navigation extends Component {
