@@ -28,7 +28,7 @@ const zoom = 15;
 class TrainingSection extends Component {
   render() {
     return (
-      <TrainingComp>
+      <TrainingComp id="training">
         <MapContainer>
           <GoogleMapReact
             bootstrapURLKeys={{

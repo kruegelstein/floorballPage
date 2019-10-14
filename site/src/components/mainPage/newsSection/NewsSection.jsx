@@ -29,7 +29,7 @@ class NewsSection extends Component {
 
   render() {
     return (
-      <NewsComp>
+      <NewsComp id="news">
         <NewsTitle>What's new</NewsTitle>
         <CardsComp>
           {news

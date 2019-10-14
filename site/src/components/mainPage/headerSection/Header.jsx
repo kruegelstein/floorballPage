@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 
+import Navigation from "./Navigation.jsx";
+
 // Styled-components
 import { HeaderContainer, Logo } from "../Main.js";
 
@@ -14,6 +16,7 @@ class HeaderSection extends Component {
         >
           <Logo />
         </a>
+        <Navigation />
       </HeaderContainer>
     );
   }

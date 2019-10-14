@@ -12,7 +12,7 @@ import NextHome from "./NextHome.jsx";
 class SeasonSection extends Component {
   render() {
     return (
-      <SeasonComp>
+      <SeasonComp id="season">
         <NextGame />
         <Divider />
         <NextHome />

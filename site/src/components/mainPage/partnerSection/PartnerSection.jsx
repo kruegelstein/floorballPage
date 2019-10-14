@@ -18,7 +18,7 @@ class PartnerSection extends Component {
   render() {
     return (
       <>
-        <PartnerTitle>
+        <PartnerTitle id="partner">
           Partner und Unterstützer der Floorball Abteilung des SCS Berlin
         </PartnerTitle>
         <BlockContainer margin={"0 auto 2rem auto"} width={"50%"}>

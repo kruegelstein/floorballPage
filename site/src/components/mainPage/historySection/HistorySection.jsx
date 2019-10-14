@@ -13,7 +13,7 @@ import {
 class HistorySection extends Component {
   render() {
     return (
-      <HistoryComp>
+      <HistoryComp id="history">
         <HistoryTitle>Geschichte und Erfolge</HistoryTitle>
         <TimeLine>
           <TimeItemLeft>

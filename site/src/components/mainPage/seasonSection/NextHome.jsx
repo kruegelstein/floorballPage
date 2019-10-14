@@ -32,7 +32,6 @@ class NextHome extends Component {
                 <ResultText>{game.date}</ResultText>
                 <ResultText>|</ResultText>
                 <ResultText>{game.time}</ResultText>
-                <ResultText>|</ResultText>
               </ContestNext>
               <NextHomeConatiner>
                 <ResultText>{game.home}</ResultText>
