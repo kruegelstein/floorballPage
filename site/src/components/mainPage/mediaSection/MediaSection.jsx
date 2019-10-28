@@ -42,7 +42,7 @@ class MediaSection extends React.Component {
                 3. Spieltag - SCS Berlin v. Sportvg Feuerbach
               </Text>
             </BlockContainer>
-            <YouTube videoId="Bdo_I7NCsiE" opts={opts} />
+            <YouTube videoId="MvcV9M3SLA0" opts={opts} />
           </BlockContainer>
           <Divider dark thin />
           <BlockContainer margin={"0 0 2rem 0"}>
