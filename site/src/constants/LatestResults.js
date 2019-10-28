@@ -5,8 +5,20 @@ import Liga from "../assets/Logo2BL.png";
 import Ingolstadt from "../assets/Ingolstadt.png";
 import Halle from "../assets/Halle.png";
 import Eisbären from "../assets/Eisbären.png";
+import Feuerbach from "../assets/Feuerbach.png";
 
 export const LatestResults = [
+  {
+    contest: "Liga",
+    contestImage: Liga,
+    home: "SCS Berlin",
+    homeImage: SCS,
+    away: "Sportvg Feuerbach",
+    awayImage: Feuerbach,
+    date: "26.10.19",
+    result: "11:3",
+    resultImage: "✅"
+  },
   {
     contest: "Pokal",
     contestImage: Pokal,

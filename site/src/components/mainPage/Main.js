@@ -276,6 +276,7 @@ export const TeamLogo = styled.img`
   width: 100%;
   border: 2px solid #3d4d64;
   border-radius: 50%;
+  object-fit: contain;
 `;
 
 export const TeamName = styled.h3`

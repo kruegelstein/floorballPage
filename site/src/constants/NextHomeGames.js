@@ -1,22 +1,22 @@
 import SCS from "../assets/Logo.png";
 import Liga from "../assets/Logo2BL.png";
-import Feuerbach from "../assets/Feuerbach.png";
+// import Feuerbach from "../assets/Feuerbach.png";
 import Dessau from "../assets/Dessau.png";
 import Rennsteig from "../assets/Rennsteig.png";
 import Dresden from "../assets/Dresden.png";
 import Leipzig from "../assets/Leipzig.png";
 
 export const NextHomeGames = [
-  {
-    contest: "Liga",
-    contestImage: Liga,
-    home: "SCS Berlin",
-    homeImage: SCS,
-    away: "Sportvg Feuerbach",
-    awayImage: Feuerbach,
-    date: "26.10.19",
-    time: "16h"
-  },
+  // {
+  //   contest: "Liga",
+  //   contestImage: Liga,
+  //   home: "SCS Berlin",
+  //   homeImage: SCS,
+  //   away: "Sportvg Feuerbach",
+  //   awayImage: Feuerbach,
+  //   date: "26.10.19",
+  //   time: "16h"
+  // },
   {
     contest: "Liga",
     contestImage: Liga,
