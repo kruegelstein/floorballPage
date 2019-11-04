@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 // Team Logos
 import SCS from "../../../assets/Logo.png";
-import Rennsteig from "../../../assets/Rennsteig.png";
+import BalticStorms from "../../../assets/BalticStorms.jpg";
 import Logo2BL from "../../../assets/Logo2BL.png";
 
 // Styled-Components
@@ -23,15 +23,15 @@ class NextGame extends Component {
       <NextGameComp>
         <LeagueLogo src={Logo2BL} />
         <Team>
-          <TeamLogo src={Rennsteig}></TeamLogo>
-          <TeamName>FC Rennsteig Avalanche</TeamName>
+          <TeamLogo src={BalticStorms}></TeamLogo>
+          <TeamName>Baltic Storms</TeamName>
         </Team>
         <Matchup>
-          <MatchupText>Guts-Muths Turnhalle</MatchupText>
-          <MatchupText>(Apelsbergstraße 98724 Neuhaus am Rennweg)</MatchupText>
-          <MatchupText>Bully: 18:00h</MatchupText>
+          <MatchupText>Tallinhalle</MatchupText>
+          <MatchupText>(Elendsredder 24, 24106 Kiel)</MatchupText>
+          <MatchupText>Bully: 17:30h</MatchupText>
           <Placeholder>- : -</Placeholder>
-          <MatchupText>Samstag, 2.11.19</MatchupText>
+          <MatchupText>Samstag, 16.11.19</MatchupText>
         </Matchup>
         <Team>
           <TeamLogo src={SCS}></TeamLogo>

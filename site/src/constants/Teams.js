@@ -6,46 +6,47 @@ export const Teams = [
     punkte: 12
   },
   {
+    name: "SC DHfK Leipzig",
+    spiele: 4,
+    diff: "39:17",
+    punkte: 9
+  },
+  {
     name: "PSV 90 Dessau",
-    spiele: 3,
-    diff: "34:14",
+    spiele: 4,
+    diff: "36:22",
     punkte: 9
   },
   {
     name: "SCS Berlin",
-    spiele: 3,
-    diff: "26:18",
+    spiele: 4,
+    diff: "26:30",
     punkte: 7,
     own: true
   },
-  {
-    name: "SC DHfK Leipzig",
-    spiele: 2,
-    diff: "17:9",
-    punkte: 6
-  },
+
   {
     name: "USV Halle Saalebiber",
-    spiele: 3,
-    diff: "14:20",
-    punkte: 2
+    spiele: 4,
+    diff: "22:22",
+    punkte: 5
   },
   {
     name: "FC Rennsteig Avalanche",
-    spiele: 3,
-    diff: "16:24",
-    punkte: 0
+    spiele: 4,
+    diff: "28:24",
+    punkte: 3
   },
   {
     name: "Floorball Ingolstadt/Nordheim",
-    spiele: 3,
-    diff: "16:28",
-    punkte: 0
+    spiele: 4,
+    diff: "22:32",
+    punkte: 3
   },
   {
     name: "Sportvg Feuerbach",
-    spiele: 3,
-    diff: "9:53",
+    spiele: 4,
+    diff: "11:71",
     punkte: 0
   }
 ];

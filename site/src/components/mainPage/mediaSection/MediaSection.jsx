@@ -39,6 +39,15 @@ class MediaSection extends React.Component {
           <BlockContainer margin={"0 0 2rem 0"}>
             <BlockContainer margin={"0 0 1rem 0"}>
               <Text fontSize={"16px"} fontWeight={"bold"}>
+                4. Spieltag - FC Rennsteig Avalanche v. SCS Berlin
+              </Text>
+            </BlockContainer>
+            <YouTube videoId="eUKwSYHA3_A" opts={opts} />
+          </BlockContainer>
+          <Divider dark thin />
+          <BlockContainer margin={"0 0 2rem 0"}>
+            <BlockContainer margin={"0 0 1rem 0"}>
+              <Text fontSize={"16px"} fontWeight={"bold"}>
                 3. Spieltag - SCS Berlin v. Sportvg Feuerbach
               </Text>
             </BlockContainer>

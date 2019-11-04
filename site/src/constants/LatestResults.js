@@ -6,8 +6,20 @@ import Ingolstadt from "../assets/Ingolstadt.png";
 import Halle from "../assets/Halle.png";
 import Eisbären from "../assets/Eisbären.png";
 import Feuerbach from "../assets/Feuerbach.png";
+import Rennsteig from "../assets/Rennsteig.png";
 
 export const LatestResults = [
+  {
+    contest: "Liga",
+    contestImage: Liga,
+    home: "FC Rennsteig Avalanche",
+    homeImage: Rennsteig,
+    away: "SCS Berlin",
+    awayImage: SCS,
+    date: "02.11.19",
+    result: "12:1",
+    resultImage: "❌"
+  },
   {
     contest: "Liga",
     contestImage: Liga,

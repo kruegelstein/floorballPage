@@ -754,6 +754,6 @@ export const NextHomeConatiner = styled.div`
 
 export const NextComp = styled.div`
   display: inline-block;
-  width: 65%;
+  width: 80%;
   margin: 0.5rem auto;
 `;
